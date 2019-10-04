@@ -18,8 +18,8 @@ int main(int argc, char* argv[]) {
     glutReshapeFunc(redimensiona);
     glutDisplayFunc(desenhaCena);
     glutIdleFunc(atualiza);
-    glutTimerFunc(0, atualizaFPS, 1000);
-    glutKeyboardFunc(teclado);
+    glutTimerFunc(0, atualizaCena, 1000);
+    glutKeyboardFunc(teclaPressionada);
 
     glewInit();
     inicializa();
