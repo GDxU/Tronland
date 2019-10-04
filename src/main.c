@@ -7,6 +7,8 @@
 #include "input.h"
 #include "desenhaCena.h"
 
+//Testing commiting on Clion
+
 int main(int argc, char* argv[]) {
 
     glutInit(&argc, argv);
