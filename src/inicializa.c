@@ -3,11 +3,6 @@
 
 #include "global.h"
 
-void atualizaCena(int time){
-    glutPostRedisplay();
-    glutTimerFunc(time, atualizaCena, 10);
-}
-
 void redimensiona(int w, int h) {
     glViewport (0, 0, w, h);
     glMatrixMode (GL_PROJECTION);
@@ -21,9 +16,15 @@ void redimensiona(int w, int h) {
 }
 
 void inicializa(){
-    glMatrixMode(GL_PROJECTION);
+    orthoperspective=1;
     glClearColor(0, 0, 0, 1);
     glEnable(GL_DEPTH_TEST);
-    gluPerspective(45.0f, 1920/1080, 1, 100);
 
+    modelo=NULL;
+
+    camera.x=0;
+    camera.y=1;
+    camera.z=0;
+
+    cameraAtual=UM;
 }

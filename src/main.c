@@ -6,6 +6,7 @@
 #include "inicializa.h"
 #include "input.h"
 #include "desenhaCena.h"
+#include "atualiza.h"
 
 //Testing commiting on Clion
 
@@ -24,7 +25,7 @@ int main(int argc, char* argv[]) {
     glutDisplayFunc(desenhaCena);
     glutTimerFunc(10, atualizaCena, 10);
     glutKeyboardFunc(teclaPressionada);
-
+    glutKeyboardUpFunc(teclaLiberada);
     glewInit();
     inicializa();
 
