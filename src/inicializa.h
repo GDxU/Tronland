@@ -3,8 +3,6 @@
 
 void inicializa();
 
-void atualizaCena(int time);
-
 void redimensiona(int w, int h);
 
 #endif

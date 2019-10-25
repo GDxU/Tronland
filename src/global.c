@@ -5,6 +5,18 @@
 
 #include "glm.h"
 
+int keyboard[256];
+
+enum Camera{UM, DOIS};
+enum Camera cameraAtual;
+
+enum Brinquedo{RODAGIGANTE, CARROSEL, KAMIKAZE};
+enum Brinquedo brinquedoAtual;
+
+typedef struct{
+    GLfloat x,y,z;
+}vetor3d;
+vetor3d camera;
+
 char orthoperspective=1; //1 se perspective 0 se ortho
 GLMmodel* modelo=NULL;
-
