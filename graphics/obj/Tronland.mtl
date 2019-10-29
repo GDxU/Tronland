@@ -1,4 +1,4 @@
-# Blender MTL File: 'tronland.blend'
+# Blender MTL File: 'None'
 # Material Count: 102
 
 newmtl Central_Plaza
@@ -10,7 +10,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Central_Plaza.jpg
+map_Kd Textures\\Central_Plaza.jpg
 
 newmtl Central_Plaza_by_seppi_Wall
 Ns 0.000000
@@ -21,7 +21,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Central_Plaza_by_seppi_Wall.jpg
+map_Kd Textures\\Central_Plaza_by_seppi_Wall.jpg
 
 newmtl CharlotteConventionCenter_069
 Ns 0.000000
@@ -32,7 +32,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\CharlotteConventionCenter_069.jpg
+map_Kd Textures\\CharlotteConventionCenter_069.jpg
 
 newmtl Color_002
 Ns 0.000000
@@ -53,7 +53,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Cowboy_aStadium_0012.jpg
+map_Kd Textures\\Cowboy_aStadium_0012.jpg
 
 newmtl Cowboy_aStadium_0013
 Ns 0.000000
@@ -64,7 +64,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Cowboy_aStadium_0013.jpg
+map_Kd Textures\\Cowboy_aStadium_0013.jpg
 
 newmtl Cowboy_aStadium_0014
 Ns 0.000000
@@ -75,7 +75,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Cowboy_aStadium_0014.jpg
+map_Kd Textures\\Cowboy_aStadium_0014.jpg
 
 newmtl Cowboy_aStadium_0015
 Ns 0.000000
@@ -86,7 +86,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Cowboy_aStadium_0015.jpg
+map_Kd Textures\\Cowboy_aStadium_0015.jpg
 
 newmtl Cowboy_aStadium_0016
 Ns 0.000000
@@ -97,7 +97,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Cowboy_aStadium_0016.jpg
+map_Kd Textures\\Cowboy_aStadium_0016.jpg
 
 newmtl Cowboy_aStadium_0018
 Ns 0.000000
@@ -108,7 +108,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Cowboy_aStadium_0018.jpg
+map_Kd Textures\\Cowboy_aStadium_0018.jpg
 
 newmtl Cowboy_aStadium_0019
 Ns 0.000000
@@ -119,7 +119,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Cowboy_aStadium_0019.jpg
+map_Kd Textures\\Cowboy_aStadium_0019.jpg
 
 newmtl Cowboy_aStadium_002
 Ns 0.000000
@@ -130,7 +130,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Cowboy_aStadium_002.jpg
+map_Kd Textures\\Cowboy_aStadium_002.jpg
 
 newmtl Cowboy_aStadium_0020
 Ns 0.000000
@@ -141,7 +141,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Cowboy_aStadium_0020.jpg
+map_Kd Textures\\Cowboy_aStadium_0020.jpg
 
 newmtl Cowboy_aStadium_0022
 Ns 0.000000
@@ -152,7 +152,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Cowboy_aStadium_0022.jpg
+map_Kd Textures\\Cowboy_aStadium_0022.jpg
 
 newmtl Cowboy_aStadium_0022_1_
 Ns 0.000000
@@ -163,7 +163,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Cowboy_aStadium_0022_1_.jpg
+map_Kd Textures\\Cowboy_aStadium_0022_1_.jpg
 
 newmtl Cowboy_aStadium_0023
 Ns 0.000000
@@ -174,7 +174,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Cowboy_aStadium_0023.jpg
+map_Kd Textures\\Cowboy_aStadium_0023.jpg
 
 newmtl Cowboy_aStadium_0025
 Ns 0.000000
@@ -185,7 +185,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Cowboy_aStadium_0025.jpg
+map_Kd Textures\\Cowboy_aStadium_0025.jpg
 
 newmtl Cowboy_aStadium_0026
 Ns 0.000000
@@ -196,7 +196,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Cowboy_aStadium_0026.jpg
+map_Kd Textures\\Cowboy_aStadium_0026.jpg
 
 newmtl Cowboy_aStadium_0027
 Ns 0.000000
@@ -207,7 +207,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Cowboy_aStadium_0027.jpg
+map_Kd Textures\\Cowboy_aStadium_0027.jpg
 
 newmtl Cowboy_aStadium_0028
 Ns 0.000000
@@ -218,7 +218,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Cowboy_aStadium_0028.jpg
+map_Kd Textures\\Cowboy_aStadium_0028.jpg
 
 newmtl Cowboy_aStadium_0030
 Ns 0.000000
@@ -229,7 +229,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Cowboy_aStadium_0030.jpg
+map_Kd Textures\\Cowboy_aStadium_0030.jpg
 
 newmtl Cowboy_aStadium_0031
 Ns 0.000000
@@ -240,7 +240,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Cowboy_aStadium_0031.jpg
+map_Kd Textures\\Cowboy_aStadium_0031.jpg
 
 newmtl Cowboy_aStadium_0032
 Ns 0.000000
@@ -251,7 +251,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Cowboy_aStadium_0032.jpg
+map_Kd Textures\\Cowboy_aStadium_0032.jpg
 
 newmtl Cowboy_aStadium_0037
 Ns 0.000000
@@ -262,7 +262,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Cowboy_aStadium_0037.jpg
+map_Kd Textures\\Cowboy_aStadium_0037.jpg
 
 newmtl Cowboy_aStadium_0046
 Ns 0.000000
@@ -273,7 +273,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Cowboy_aStadium_0046.jpg
+map_Kd Textures\\Cowboy_aStadium_0046.jpg
 
 newmtl Cowboy_aStadium_0048
 Ns 0.000000
@@ -284,7 +284,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Cowboy_aStadium_0048.jpg
+map_Kd Textures\\Cowboy_aStadium_0048.jpg
 
 newmtl Cowboy_aStadium_0049
 Ns 0.000000
@@ -295,7 +295,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Cowboy_aStadium_0049.jpg
+map_Kd Textures\\Cowboy_aStadium_0049.jpg
 
 newmtl Cowboy_aStadium_0052
 Ns 0.000000
@@ -306,7 +306,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Cowboy_aStadium_0052.jpg
+map_Kd Textures\\Cowboy_aStadium_0052.jpg
 
 newmtl Cowboy_aStadium_0054
 Ns 0.000000
@@ -317,7 +317,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Cowboy_aStadium_0054.jpg
+map_Kd Textures\\Cowboy_aStadium_0054.jpg
 
 newmtl Electric_Arrow_Sign_1
 Ns 0.000000
@@ -328,7 +328,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Electric_Arrow_Sign_1.png
+map_Kd Textures\\Electric_Arrow_Sign_1.png
 
 newmtl FrontColor
 Ns 0.000000
@@ -349,7 +349,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\M_05_3.jpg
+map_Kd Textures\\M_05_3.jpg
 
 newmtl M_96_96_96
 Ns 0.000000
@@ -380,7 +380,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Material145__c_pia__copy1.jpg
+map_Kd Textures\\Material145__c_pia__copy1.jpg
 
 newmtl None
 Ns 500.000001
@@ -401,7 +401,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\RCA_Dome_105.jpg
+map_Kd Textures\\RCA_Dome_105.jpg
 
 newmtl Stone_Pavers_Flagstone_Gray
 Ns 0.000000
@@ -412,7 +412,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Stone_Pavers_Flagstone_Gray.jpg
+map_Kd Textures\\Stone_Pavers_Flagstone_Gray.jpg
 
 newmtl Translucent_Glass_Block_Light
 Ns 0.000000
@@ -423,7 +423,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Translucent_Glass_Block_Light.jpg
+map_Kd Textures\\Translucent_Glass_Block_Light.jpg
 
 newmtl Translucent_Glass_Safety
 Ns 0.000000
@@ -434,7 +434,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\Translucent_Glass_Safety.jpg
+map_Kd Textures\\Translucent_Glass_Safety.jpg
 
 newmtl VA_Beach_Convention_Center_046
 Ns 0.000000
@@ -445,7 +445,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\VA_Beach_Convention_Center_046.jpg
+map_Kd Textures\\VA_Beach_Convention_Center_046.jpg
 
 newmtl _10
 Ns 0.000000
@@ -456,7 +456,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_10.jpg
+map_Kd Textures\\_10.jpg
 
 newmtl _107
 Ns 0.000000
@@ -467,7 +467,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_107.jpg
+map_Kd Textures\\_107.jpg
 
 newmtl _108
 Ns 0.000000
@@ -478,7 +478,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_108.jpg
+map_Kd Textures\\_108.jpg
 
 newmtl _109
 Ns 0.000000
@@ -489,7 +489,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_109.jpg
+map_Kd Textures\\_109.jpg
 
 newmtl _11
 Ns 0.000000
@@ -500,7 +500,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_11.jpg
+map_Kd Textures\\_11.jpg
 
 newmtl _110
 Ns 0.000000
@@ -511,7 +511,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_110.jpg
+map_Kd Textures\\_110.jpg
 
 newmtl _119
 Ns 0.000000
@@ -522,7 +522,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_119.jpg
+map_Kd Textures\\_119.jpg
 
 newmtl _12
 Ns 0.000000
@@ -533,7 +533,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_12.jpg
+map_Kd Textures\\_12.jpg
 
 newmtl _13
 Ns 0.000000
@@ -544,7 +544,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_13.jpg
+map_Kd Textures\\_13.jpg
 
 newmtl _15
 Ns 0.000000
@@ -555,7 +555,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_15.jpg
+map_Kd Textures\\_15.jpg
 
 newmtl _17
 Ns 0.000000
@@ -566,7 +566,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_17.png
+map_Kd Textures\\_17.png
 
 newmtl _20
 Ns 0.000000
@@ -577,7 +577,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_20.jpg
+map_Kd Textures\\_20.jpg
 
 newmtl _23
 Ns 0.000000
@@ -588,7 +588,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_23.png
+map_Kd Textures\\_23.png
 
 newmtl _28
 Ns 0.000000
@@ -599,7 +599,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_28.jpg
+map_Kd Textures\\_28.jpg
 
 newmtl _3
 Ns 0.000000
@@ -610,7 +610,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_3.png
+map_Kd Textures\\_3.png
 
 newmtl _32
 Ns 0.000000
@@ -631,7 +631,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_33.jpg
+map_Kd Textures\\_33.jpg
 
 newmtl _34
 Ns 0.000000
@@ -642,7 +642,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_34.jpg
+map_Kd Textures\\_34.jpg
 
 newmtl _35
 Ns 0.000000
@@ -653,7 +653,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_35.jpg
+map_Kd Textures\\_35.jpg
 
 newmtl _37
 Ns 0.000000
@@ -664,7 +664,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_37.jpg
+map_Kd Textures\\_37.jpg
 
 newmtl _39
 Ns 0.000000
@@ -675,7 +675,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_39.jpg
+map_Kd Textures\\_39.jpg
 
 newmtl _4
 Ns 0.000000
@@ -696,7 +696,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_42.jpg
+map_Kd Textures\\_42.jpg
 
 newmtl _5
 Ns 0.000000
@@ -707,7 +707,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_5.jpg
+map_Kd Textures\\_5.jpg
 
 newmtl _6
 Ns 0.000000
@@ -718,7 +718,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_6.jpg
+map_Kd Textures\\_6.jpg
 
 newmtl _63
 Ns 0.000000
@@ -729,7 +729,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_63.jpg
+map_Kd Textures\\_63.jpg
 
 newmtl _64
 Ns 0.000000
@@ -740,7 +740,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_64.jpg
+map_Kd Textures\\_64.jpg
 
 newmtl _66
 Ns 0.000000
@@ -751,7 +751,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_66.jpg
+map_Kd Textures\\_66.jpg
 
 newmtl _67
 Ns 0.000000
@@ -762,7 +762,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_67.jpg
+map_Kd Textures\\_67.jpg
 
 newmtl _68
 Ns 0.000000
@@ -773,7 +773,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_68.jpg
+map_Kd Textures\\_68.jpg
 
 newmtl _7
 Ns 0.000000
@@ -784,7 +784,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_7.jpg
+map_Kd Textures\\_7.jpg
 
 newmtl _70
 Ns 0.000000
@@ -795,7 +795,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_70.jpg
+map_Kd Textures\\_70.jpg
 
 newmtl _73
 Ns 0.000000
@@ -806,7 +806,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_73.jpg
+map_Kd Textures\\_73.jpg
 
 newmtl _76
 Ns 0.000000
@@ -817,7 +817,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_76.bmp
+map_Kd Textures\\_76.bmp
 
 newmtl _78
 Ns 0.000000
@@ -828,7 +828,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_78.jpg
+map_Kd Textures\\_78.jpg
 
 newmtl _8
 Ns 0.000000
@@ -849,7 +849,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_82.jpg
+map_Kd Textures\\_82.jpg
 
 newmtl _83
 Ns 0.000000
@@ -860,7 +860,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_83.jpg
+map_Kd Textures\\_83.jpg
 
 newmtl _86
 Ns 0.000000
@@ -871,7 +871,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_86.jpg
+map_Kd Textures\\_86.jpg
 
 newmtl _88
 Ns 0.000000
@@ -882,7 +882,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_88.jpg
+map_Kd Textures\\_88.jpg
 
 newmtl _93
 Ns 0.000000
@@ -893,7 +893,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_93.jpg
+map_Kd Textures\\_93.jpg
 
 newmtl _94
 Ns 0.000000
@@ -904,7 +904,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_94.bmp
+map_Kd Textures\\_94.bmp
 
 newmtl _98
 Ns 0.000000
@@ -915,7 +915,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_98.jpg
+map_Kd Textures\\_98.jpg
 
 newmtl _Color_001_7
 Ns 0.000000
@@ -926,7 +926,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_Color_001_7.bmp
+map_Kd Textures\\_Color_001_7.bmp
 
 newmtl _Gray6_2
 Ns 0.000000
@@ -937,7 +937,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_Gray6_2.jpg
+map_Kd Textures\\_Gray6_2.jpg
 
 newmtl _Metal_Aluminum_Anodized_2
 Ns 0.000000
@@ -948,7 +948,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\_Metal_Aluminum_Anodized_2.jpg
+map_Kd Textures\\_Metal_Aluminum_Anodized_2.jpg
 
 newmtl additional10_hudson_yards_kohn_pedersen_fox_kpf_coach_offic.000
 Ns 0.000000
@@ -959,7 +959,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\additional10_hudson_yards_kohn_pedersen_fox_kpf_coach_office_skyscraper_new_york_city_usa_dezeen_936_2_2.jpg
+map_Kd Textures\\additional10_hudson_yards_kohn_pedersen_fox_kpf_coach_office_skyscraper_new_york_city_usa_dezeen_936_2_2.jpg
 
 newmtl additional10_hudson_yards_kohn_pedersen_fox_kpf_coach_office_sk
 Ns 0.000000
@@ -970,7 +970,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\additional10_hudson_yards_kohn_pedersen_fox_kpf_coach_office_skyscraper_new_york_city_usa_dezeen_936_2_3.jpg
+map_Kd Textures\\additional10_hudson_yards_kohn_pedersen_fox_kpf_coach_office_skyscraper_new_york_city_usa_dezeen_936_2_3.jpg
 
 newmtl anaheim_0037
 Ns 0.000000
@@ -981,7 +981,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\anaheim_0037.jpg
+map_Kd Textures\\anaheim_0037.jpg
 
 newmtl big_glass_squares_for_dome3
 Ns 0.000000
@@ -992,7 +992,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\big_glass_squares_for_dome3.jpg
+map_Kd Textures\\big_glass_squares_for_dome3.jpg
 
 newmtl cowboy_bStadium_0001_01
 Ns 0.000000
@@ -1003,7 +1003,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\cowboy_bStadium_0001_01.jpg
+map_Kd Textures\\cowboy_bStadium_0001_01.jpg
 
 newmtl cowboy_bStadium_0001_02
 Ns 0.000000
@@ -1014,7 +1014,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\cowboy_bStadium_0001_02.jpg
+map_Kd Textures\\cowboy_bStadium_0001_02.jpg
 
 newmtl cowboy_bStadium_0001_02_1_
 Ns 0.000000
@@ -1025,7 +1025,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\cowboy_bStadium_0001_02_1_.jpg
+map_Kd Textures\\cowboy_bStadium_0001_02_1_.jpg
 
 newmtl cowboy_bStadium_0001_03
 Ns 0.000000
@@ -1036,7 +1036,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\cowboy_bStadium_0001_03.jpg
+map_Kd Textures\\cowboy_bStadium_0001_03.jpg
 
 newmtl cowboy_bStadium_0001_04
 Ns 0.000000
@@ -1047,7 +1047,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\cowboy_bStadium_0001_04.jpg
+map_Kd Textures\\cowboy_bStadium_0001_04.jpg
 
 newmtl drop_result_5
 Ns 0.000000
@@ -1058,7 +1058,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\drop_result_5.jpg
+map_Kd Textures\\drop_result_5.jpg
 
 newmtl fontainebleau_20rendering_20807tower_4
 Ns 0.000000
@@ -1069,7 +1069,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\fontainebleau_20rendering_20807tower_4.jpg
+map_Kd Textures\\fontainebleau_20rendering_20807tower_4.jpg
 
 newmtl material_1_Terrain_1
 Ns 0.000000
@@ -1080,7 +1080,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\material_1_Terrain_1.jpg
+map_Kd Textures\\material_1_Terrain_1.jpg
 
 newmtl touka_poke_gym_mark_mat_003_001_001
 Ns 0.000000
@@ -1091,7 +1091,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\touka_poke_gym_mark_mat_003_001_001.png
+map_Kd Textures\\touka_poke_gym_mark_mat_003_001_001.png
 
 newmtl ventana__22
 Ns 0.000000
@@ -1102,7 +1102,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\ventana__22.bmp
+map_Kd Textures\\ventana__22.bmp
 
 newmtl windows2
 Ns 0.000000
@@ -1113,4 +1113,4 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\felip\\Desktop\\Materiais de Matérias\\CG\\TP2\\Tronland\\graphics\\obj\\Textures\\windows2.jpg
+map_Kd Textures\\windows2.jpg
