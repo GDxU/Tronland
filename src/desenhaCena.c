@@ -5,7 +5,6 @@
 #include "global.h"
 
 
-
 void drawModel(GLMmodel* modelo, char* string){
     if(modelo==NULL){
         modelo = glmReadOBJ(string);
@@ -88,9 +87,20 @@ void desenhaCena(){
     drawModel(principal, "../graphics/obj/Tronland.obj");
     glPopMatrix();
     glPushMatrix();
-    glTranslatef(-2, -3, 13);
+    glTranslatef(-2, 0, 13);
+    drawModel(ferriswheelBase, "../graphics/obj/ferriswheelbase.obj");
+    glPushMatrix();
+    glTranslatef(1,8,0);
     glRotatef(grauRG,0,0,1);
-    drawModel(rodaGigante, "../graphics/obj/roda_gigante_inteira.obj");
+    drawModel(wheel, "../graphics/obj/wheel.obj");
+    glPopMatrix();
+    glPushMatrix();
+    glTranslatef(-7, 0, -49);
+    drawModel(towerFall, "../graphics/obj/towerfLL.obj");
+    glPushMatrix();
+    glTranslatef(0, ytowerfallcabins, 0);
+    drawModel(towerFallCabins, "../graphics/obj/towerfallcabins.obj");
+
     glPopMatrix();
     glColor3f(0,0,0);
     glutSolidSphere(1000,1,1);

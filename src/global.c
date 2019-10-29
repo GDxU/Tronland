@@ -13,6 +13,7 @@ enum Camera cameraAtual;
 enum Brinquedo{RODAGIGANTE, CARROSEL, KAMIKAZE};
 enum Brinquedo brinquedoAtual;
 
+int ytowerfallcabins;
 
 
 int xMouse, yMouse;        //variáveis globais que serão usadas na função posicionaCamera
@@ -28,6 +29,9 @@ vetor3d camera;
 
 char orthoperspective=1; //1 se perspective 0 se ortho
 GLMmodel* principal=NULL;
-GLMmodel* rodaGigante=NULL;
+GLMmodel* ferriswheelBase=NULL;
+GLMmodel* wheel=NULL;
+GLMmodel* towerFall=NULL;
+GLMmodel* towerFallCabins=NULL;
 
 float grauRG;

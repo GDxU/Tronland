@@ -25,7 +25,7 @@ void inicializa(){
 
     vec4 luzAmbiente = {{{ 0.3, 0.3, 0.3, 1.0 }}};
     vec4 luzDifusaEspecular = {{{ 1.0, 1.0, 1.0, 0.0 }}};
-    vec4 luzPosicao = {{{-1.0, -1.0, 0.0, 0.0 }}};
+    vec4 luzPosicao = {{{0, 5.0, 0.0, 0.0 }}};
     vec4 ambienteGlobal = {{{ 0.3, 0.3, 0.3, 1.0 }}};
     glLightfv(GL_LIGHT0, GL_AMBIENT, luzAmbiente.v);
     glLightfv(GL_LIGHT0, GL_DIFFUSE, luzDifusaEspecular.v);
@@ -36,7 +36,12 @@ void inicializa(){
 
 
     principal = glmReadOBJ("../graphics/obj/Tronland.obj");
-    rodaGigante = glmReadOBJ("../graphics/obj/roda_gigante_inteira.obj");
+    ferriswheelBase = glmReadOBJ("../graphics/obj/ferriswheelbase.obj");
+    wheel = glmReadOBJ("../graphics/obj/wheel.obj");
+    towerFall = glmReadOBJ("../graphics/obj/towerfLL.obj");
+    towerFallCabins = glmReadOBJ("../graphics/obj/towerfallcabins.obj");
+
+    ytowerfallcabins=0;
 
     xCursor= 0;
     yCursor= 0; //a câmera começa olhando para o ponto 0
