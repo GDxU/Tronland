@@ -11,6 +11,12 @@ enum Camera cameraAtual;
 enum Brinquedo{RODAGIGANTE, CARROSEL, KAMIKAZE};
 enum Brinquedo brinquedoAtual;
 
+int xMouse, yMouse;        //variáveis globais que serão usadas na função posicionaCamera
+int xCursor, yCursor, zCursor;//guarda o centro do cursor
+float phi, teta;       //ângulos das coordenadas esféricas
+double xChange; double yChange; //variáveis que guardam o vetor 2D de movimento do mouse na tela
+
+
 typedef struct{
     GLfloat x,y,z;
 }vetor3d;

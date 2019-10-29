@@ -38,9 +38,16 @@ void inicializa(){
     principal = glmReadOBJ("../graphics/obj/Tronland.obj");
     rodaGigante = glmReadOBJ("../graphics/obj/roda_gigante_inteira.obj");
 
+    xCursor= 0;
+    yCursor= 0; //a câmera começa olhando para o ponto 0
+    zCursor= 0;
+
     camera.x=0;
     camera.y=1;
     camera.z=0;
+
+    phi=90, teta=0;
+    xMouse=0, yMouse=0;
 
     grauRG=0;
 

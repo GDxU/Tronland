@@ -6,11 +6,14 @@ void teclaPressionada(unsigned char key, int x, int y) {
         case 27:
             exit(0);
             break;
-        case 1:
+        case '1':
             cameraAtual=UM;
             break;
-        case 2:
+        case '2':
             cameraAtual=DOIS;
+            break;
+        case '3':
+            cameraAtual=TRES;
             break;
     }
 }

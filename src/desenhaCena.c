@@ -1,7 +1,9 @@
 #include <GL/glew.h>
 #include <GL/freeglut.h>
+#include <math.h>
 #include "glm.h"
 #include "global.h"
+
 
 
 void drawModel(GLMmodel* modelo, char* string){
@@ -20,6 +22,25 @@ void drawModel(GLMmodel* modelo, char* string){
 
 void posicionaCamera(){
 
+    if(keyboard['w'])
+        xCursor--;
+    if(keyboard['s'])
+        xCursor++;
+    if(keyboard['d'])
+        zCursor--;
+    if(keyboard['a'])
+        zCursor++;
+
+    if(/*cameraAtual==DOIS*/1){
+        if(keyboard['q'])
+            yCursor--;
+        if(keyboard['e'])
+            yCursor++;
+
+    }
+
+
+
     camera.x = 100*sin(phi)*cos(teta);  //coordenada x denotada em coordenadas esféricas
     camera.z = 100*sin(phi)*sin(teta); //coordenada z denotada em coordenadas esféricas
     camera.y = 100*cos(phi);          //coordenada y denotada em coordenadas esféricas
@@ -34,12 +55,18 @@ void posicionaCamera(){
                   0, 1, 0);                                        //vetor UP, apontando para o eixo Y (para cima)
     }
     else if(cameraAtual==DOIS){
-        gluLookAt( xCursor+0, 0, zCursor+0,                    //já aqui, a câmera está posicionada no centro da esfera
+        glMatrixMode(GL_MODELVIEW);
+        glLoadIdentity();
+        printf(" x,y,z %d %d %d\n", xCursor, yCursor, zCursor);
+        gluLookAt( xCursor+0, yCursor, zCursor+0,                    //já aqui, a câmera está posicionada no centro da esfera
                    xCursor+camera.x, camera.y, zCursor+camera.z,     //e a câmera estará olhando para a casca da esfera (primeira pessoa)
                    0, 1, 0);                                        //vetor UP, apontando para o eixo Y (para cima)
 
     }else if(cameraAtual==TRES){
-        gluLookAt(0, 0, 200,   // Z=200
+        printf(" x,y,z %d %d %d\n", xCursor, yCursor, zCursor);
+        glMatrixMode(GL_MODELVIEW);
+        glLoadIdentity();
+        gluLookAt(0, 100, 100,   // Z=200
                   0, 0, 0,    // (0, 0, 0) origem do mundo
                   0, 1, 0);  //nesse exemplo mais simples, estamos no ponto Z=200 olhando para o ponto 0
 
@@ -61,7 +88,7 @@ void desenhaCena(){
     drawModel(principal, "../graphics/obj/Tronland.obj");
     glPopMatrix();
     glPushMatrix();
-    glTranslatef(3.068,0.0,-1.0);
+    glTranslatef(-2, -3, 13);
     glRotatef(grauRG,0,0,1);
     drawModel(rodaGigante, "../graphics/obj/roda_gigante_inteira.obj");
     glPopMatrix();

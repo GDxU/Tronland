@@ -19,12 +19,13 @@ int main(int argc, char* argv[]) {
     glutInitContextProfile(GLUT_COMPATIBILITY_PROFILE);
 
     glutInitDisplayMode(GLUT_RGBA | GLUT_DOUBLE | GLUT_DEPTH);
-    glutInitWindowSize(500, 500);
+    glutInitWindowSize(1920, 1080);
     glutCreateWindow("...");
 
     glutReshapeFunc(redimensiona);
     glutDisplayFunc(desenhaCena);
     glutTimerFunc(10, atualizaCena, 10);
+    glutPassiveMotionFunc(movimentaCamera);
     glutKeyboardFunc(teclaPressionada);
     glutKeyboardUpFunc(teclaLiberada);
     glewInit();
