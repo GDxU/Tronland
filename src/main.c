@@ -7,6 +7,7 @@
 #include "input.h"
 #include "desenhaCena.h"
 #include "atualiza.h"
+#include "vetor.h"
 
 //Testing commiting on Clion
 

@@ -5,7 +5,7 @@
 
 int keyboard[256];
 
-enum Camera{UM, DOIS};
+enum Camera{UM, DOIS, TRES};
 enum Camera cameraAtual;
 
 enum Brinquedo{RODAGIGANTE, CARROSEL, KAMIKAZE};
@@ -18,6 +18,9 @@ typedef struct{
 vetor3d camera;
 
 char orthoperspective;
-GLMmodel* modelo;
+GLMmodel* principal;
+GLMmodel* rodaGigante;
+
+float grauRG;
 
 #endif
