@@ -26,15 +26,9 @@ void initialize(){
     glEnable(GL_DEPTH_TEST);
     glEnable(GL_LIGHTING);
 
-    vec4 environmentalLight = {{{ 0.5, 0, 0.5, 1.0 }}};
-    vec4 diffuseSpecularLight = {{{ 1.0, 1.0, 1.0, 0.0 }}};
-    vec4 positionLight = {{{0, 5.0, 0.0, 0.0 }}};
-    vec4 environmentalGlobal = {{{ 0.5, 1, 0.5, 1.0 }}};
-    glLightfv(GL_LIGHT0, GL_AMBIENT, environmentalLight.v);
-    glLightfv(GL_LIGHT0, GL_DIFFUSE, diffuseSpecularLight.v);
-    glLightfv(GL_LIGHT0, GL_SPECULAR, diffuseSpecularLight.v);
-    glLightfv(GL_LIGHT0, GL_POSITION, positionLight.v);
-    glEnable(GL_LIGHT0);
+
+    red = green = blue = 1;
+    lighttimer=0;
 
 
     tronland = glmReadOBJ("../graphics/obj/Tronland.obj");
@@ -65,4 +59,5 @@ void initialize(){
     degreeFW=0;
 
     currentCamera=THREE;
+    currentScreen=MENU;
 }

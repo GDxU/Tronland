@@ -8,6 +8,9 @@ int keyboard[256];
 enum Camera{ZERO, ONE, TWO, THREE};
 enum Camera currentCamera;
 
+enum Screen{MENU, PLAYING};
+enum Screen currentScreen;
+
 enum Ride{FERRISWHEEL, CAROUSEL, TOWERFALL};
 enum Ride currentRide;
 
@@ -17,6 +20,10 @@ int goingup;
 int waitingup;
 int waitingdown;
 int towerfalltimer;
+
+
+float red, green, blue;
+int lighttimer;
 
 
 int xMouse, yMouse;        //variáveis globais que serão usadas na função posicionaCamera

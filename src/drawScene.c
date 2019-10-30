@@ -56,13 +56,13 @@ void cameraPosition(){
     else if(currentCamera==TWO){
         glMatrixMode(GL_MODELVIEW);
         glLoadIdentity();
-        printf(" x,y,z %f %f %f\n", xCursor, yCursor, zCursor);
+//        printf(" x,y,z %f %f %f\n", xCursor, yCursor, zCursor);
         gluLookAt( xCursor+0, yCursor, zCursor+0,                    //já aqui, a câmera está posicionada no centro da esfera
                    xCursor+camera.x, camera.y, zCursor+camera.z,     //e a câmera estará olhando para a casca da esfera (primeira pessoa)
                    0, 1, 0);                                        //vetor UP, apontando para o eixo Y (para cima)
 
     }else if(currentCamera==THREE){
-        printf(" x,y,z %f %f %f\n", xCursor, yCursor, zCursor);
+//        printf(" x,y,z %f %f %f\n", xCursor, yCursor, zCursor);
         glMatrixMode(GL_MODELVIEW);
         glLoadIdentity();
         gluLookAt(0, 100, 100,   // Z=200
