@@ -5,8 +5,8 @@
 #ifndef NETOLAND_ATUALIZA_H
 #define NETOLAND_ATUALIZA_H
 
-void atualizaCena(int time);
+void timer(int time);
 
-void movimentaCamera();
+void cameraMovement();
 
 #endif //NETOLAND_ATUALIZA_H

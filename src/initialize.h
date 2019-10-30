@@ -1,8 +1,8 @@
 #ifndef INICIALIZA_H_INCLUDED
 #define INICIALIZA_H_INCLUDED
 
-void inicializa();
+void initialize();
 
-void redimensiona(int w, int h);
+void reshape(int w, int h);
 
 #endif

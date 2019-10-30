@@ -3,11 +3,11 @@
 #include <string.h>
 #include <stdio.h>
 
-#include "inicializa.h"
+#include "initialize.h"
 #include "input.h"
-#include "desenhaCena.h"
-#include "atualiza.h"
-#include "vetor.h"
+#include "drawScene.h"
+#include "timer.h"
+#include "vector.h"
 
 //Testing commiting on Clion
 
@@ -22,15 +22,16 @@ int main(int argc, char* argv[]) {
     glutInitWindowSize(1920, 1080);
     glutCreateWindow("...");
 
-    glutReshapeFunc(redimensiona);
-    glutDisplayFunc(desenhaCena);
-    glutTimerFunc(10, atualizaCena, 10);
-    glutPassiveMotionFunc(movimentaCamera);
-    glutKeyboardFunc(teclaPressionada);
-    glutKeyboardUpFunc(teclaLiberada);
+    glutReshapeFunc(reshape);
+    glutDisplayFunc(drawScene);
+    glutTimerFunc(10, timer, 10);
+    glutPassiveMotionFunc(cameraMovement);
+    glutKeyboardFunc(pressedKey);
+    glutKeyboardUpFunc(releasedKey);
     glewInit();
-    inicializa();
 
+
+    initialize();
 
     glutMainLoop();
     return 0;

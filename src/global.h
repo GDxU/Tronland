@@ -5,16 +5,22 @@
 
 int keyboard[256];
 
-enum Camera{UM, DOIS, TRES};
-enum Camera cameraAtual;
+enum Camera{ZERO, ONE, TWO, THREE};
+enum Camera currentCamera;
 
-enum Brinquedo{RODAGIGANTE, CARROSEL, KAMIKAZE};
-enum Brinquedo brinquedoAtual;
+enum Ride{FERRISWHEEL, CAROUSEL, TOWERFALL};
+enum Ride currentRide;
 
-int ytowerfallcabins;
+float ytowerfallcabins;
+int falling;
+int goingup;
+int waitingup;
+int waitingdown;
+int towerfalltimer;
+
 
 int xMouse, yMouse;        //variáveis globais que serão usadas na função posicionaCamera
-int xCursor, yCursor, zCursor;//guarda o centro do cursor
+float xCursor, yCursor, zCursor;//guarda o centro do cursor
 float phi, teta;       //ângulos das coordenadas esféricas
 double xChange; double yChange; //variáveis que guardam o vetor 2D de movimento do mouse na tela
 
@@ -26,13 +32,14 @@ typedef struct{
 vetor3d camera;
 
 char orthoperspective;
-GLMmodel* principal;
+
+GLMmodel* tronland;
 GLMmodel* ferriswheelBase;
 GLMmodel* wheel;
 GLMmodel* towerFall;
 GLMmodel* towerFallCabins;
 
 
-float grauRG;
+float degreeFW;
 
 #endif

@@ -1,5 +1,5 @@
 #include <math.h>
-#include "vetor.h"
+#include "vector.h"
 
 
 float length(vec3* v) {

@@ -1,23 +1,26 @@
 #include "global.h"
 
-void teclaPressionada(unsigned char key, int x, int y) {
+void pressedKey(unsigned char key, int x, int y) {
     keyboard[key]=1;
     switch (key){
         case 27:
             exit(0);
             break;
         case '1':
-            cameraAtual=UM;
+            currentCamera=ONE;
             break;
         case '2':
-            cameraAtual=DOIS;
+            currentCamera=TWO;
             break;
         case '3':
-            cameraAtual=TRES;
+            currentCamera=THREE;
             break;
+        case '0':
+            currentCamera=ZERO;
+            currentRide=TOWERFALL;
     }
 }
 
-void teclaLiberada(unsigned char key, int x, int y){
+void releasedKey(unsigned char key, int x, int y){
     keyboard[key]=0;
 }
