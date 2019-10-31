@@ -11,7 +11,16 @@
 
 void timer(int time){
 //    printf("phi, teta  %f %f\n", phi,teta);
-    degreeFW += 5;
+    carouselTimer++;
+    if(carouselTimer<300)
+        yMoto += 0.01;
+    else if(carouselTimer<600)
+        yMoto -= 0.01;
+    else
+        carouselTimer=0;
+
+    degreeFW += 0.1;
+    degreeCarousel -= 1;
     towerFallMovement();
     updateLighting();
     glutPostRedisplay();
@@ -80,7 +89,7 @@ void towerFallMovement(){
 void updateLighting(){
 
     lighttimer++;
-    printf("R G B %f %f %f \n",red,green,blue);
+//    printf("R G B %f %f %f \n",red,green,blue);
 
 
 //    red = green = blue = 0.5;

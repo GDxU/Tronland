@@ -44,5 +44,11 @@ GLMmodel* ferriswheelBase=NULL;
 GLMmodel* wheel=NULL;
 GLMmodel* towerFall=NULL;
 GLMmodel* towerFallCabins=NULL;
+GLMmodel* carouselStructure=NULL;
+GLMmodel* carouselMotorcycle=NULL;
+
 
 float degreeFW;
+float degreeCarousel;
+float yMoto;
+int carouselTimer;
