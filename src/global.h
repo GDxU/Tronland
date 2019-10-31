@@ -45,8 +45,14 @@ GLMmodel* ferriswheelBase;
 GLMmodel* wheel;
 GLMmodel* towerFall;
 GLMmodel* towerFallCabins;
+GLMmodel* carouselStructure;
+GLMmodel* carouselMotorcycle;
+
 
 
 float degreeFW;
+float degreeCarousel;
+float yMoto;
+int carouselTimer;
 
 #endif

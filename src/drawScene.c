@@ -99,6 +99,7 @@ void cameraPosition(){
 }
 
 void drawScene(){
+//    printf(" x,y,z %f %f %f\n", xCursor, yCursor, zCursor);
     glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
     glColor3f(0,0,0);
     glClearColor(0,0,0,0);
@@ -121,6 +122,15 @@ void drawScene(){
     glPushMatrix();
     glTranslatef(0, ytowerfallcabins, 0);
     drawModel(towerFallCabins, "../graphics/obj/towerfallcabins.obj");
+    glPopMatrix();
+    glPopMatrix();
+    glPushMatrix();
+    glTranslatef(-28, 0, 8);
+    drawModel(carouselStructure, "../graphics/obj/carousel.obj");
+    glPushMatrix();
+    glTranslatef(0, yMoto, 0);
+    glRotatef(degreeCarousel,0,1,0);
+    drawModel(carouselMotorcycle, "../graphics/obj/motorcycle.obj");
     glPopMatrix();
     glPopMatrix();
     glutSwapBuffers();

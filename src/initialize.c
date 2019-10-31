@@ -36,6 +36,8 @@ void initialize(){
     wheel = glmReadOBJ("../graphics/obj/wheel.obj");
     towerFall = glmReadOBJ("../graphics/obj/towerfLL.obj");
     towerFallCabins = glmReadOBJ("../graphics/obj/towerfallcabins.obj");
+    carouselStructure = glmReadOBJ("../graphics/obj/carousel.obj");
+    carouselMotorcycle = glmReadOBJ("../graphics/obj/motorcycle.obj");
 
     ytowerfallcabins=0;
     falling=0;
@@ -57,6 +59,9 @@ void initialize(){
     xMouse=0, yMouse=0;
 
     degreeFW=0;
+    degreeCarousel=0;
+    yMoto=-0.5;
+    carouselTimer=0;
 
     currentCamera=THREE;
     currentScreen=MENU;
