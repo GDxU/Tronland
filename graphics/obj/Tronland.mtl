@@ -1,5 +1,5 @@
 # Blender MTL File: 'parque.blend'
-# Material Count: 99
+# Material Count: 93
 
 newmtl Azul
 Ns 225.000000
@@ -152,17 +152,6 @@ Ni 1.450000
 d 1.000000
 illum 2
 map_Kd Textures\\Cowboy_aStadium_0020.jpg
-
-newmtl Cowboy_aStadium_0022
-Ns 0.000000
-Ka 1.000000 1.000000 1.000000
-Kd 0.470588 0.513725 0.564706
-Ks 0.330000 0.330000 0.330000
-Ke 0.0 0.0 0.0
-Ni 1.450000
-d 1.000000
-illum 2
-map_Kd Textures\\Cowboy_aStadium_0022.jpg
 
 newmtl Cowboy_aStadium_0022_1_
 Ns 0.000000
@@ -401,6 +390,16 @@ Ni 1.450000
 d 1.000000
 illum 2
 
+newmtl Material.002
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.012368 0.317294 0.042050
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+
 newmtl Material145__c_pia__copy1
 Ns 0.000000
 Ka 1.000000 1.000000 1.000000
@@ -413,13 +412,11 @@ illum 2
 map_Kd Textures\\Material145__c_pia__copy1.jpg
 
 newmtl None
-Ns 500.000001
-Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
-Ks 0.800000 0.800000 0.800000
-Ke 0.0 0.0 0.0
-Ni 1.450000
-d 1.000000
+Ns 500
+Ka 0.8 0.8 0.8
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
 illum 2
 
 newmtl RCA_Dome_105
@@ -509,17 +506,6 @@ Ni 1.450000
 d 1.000000
 illum 2
 map_Kd Textures\\_108.jpg
-
-newmtl _109
-Ns 0.000000
-Ka 1.000000 1.000000 1.000000
-Kd 0.635294 0.694118 0.729412
-Ks 0.330000 0.330000 0.330000
-Ke 0.0 0.0 0.0
-Ni 1.450000
-d 1.000000
-illum 2
-map_Kd Textures\\_109.jpg
 
 newmtl _11
 Ns 0.000000
@@ -663,27 +649,6 @@ d 1.000000
 illum 2
 map_Kd Textures\\_37.jpg
 
-newmtl _4
-Ns 0.000000
-Ka 1.000000 1.000000 1.000000
-Kd 0.878431 0.874510 0.878431
-Ks 0.330000 0.330000 0.330000
-Ke 0.0 0.0 0.0
-Ni 1.450000
-d 1.000000
-illum 2
-
-newmtl _42
-Ns 0.000000
-Ka 1.000000 1.000000 1.000000
-Kd 0.388235 0.603922 0.729412
-Ks 0.330000 0.330000 0.330000
-Ke 0.0 0.0 0.0
-Ni 1.450000
-d 1.000000
-illum 2
-map_Kd Textures\\_42.jpg
-
 newmtl _5
 Ns 0.000000
 Ka 1.000000 1.000000 1.000000
@@ -794,17 +759,6 @@ d 1.000000
 illum 2
 map_Kd Textures\\_73.jpg
 
-newmtl _76
-Ns 0.000000
-Ka 1.000000 1.000000 1.000000
-Kd 0.294118 0.537255 0.784314
-Ks 0.330000 0.330000 0.330000
-Ke 0.0 0.0 0.0
-Ni 1.450000
-d 1.000000
-illum 2
-map_Kd Textures\\_76.bmp
-
 newmtl _78
 Ns 0.000000
 Ka 1.000000 1.000000 1.000000
@@ -880,17 +834,6 @@ Ni 1.450000
 d 1.000000
 illum 2
 map_Kd Textures\\_94.bmp
-
-newmtl _98
-Ns 0.000000
-Ka 1.000000 1.000000 1.000000
-Kd 0.450980 0.572549 0.219608
-Ks 0.330000 0.330000 0.330000
-Ke 0.0 0.0 0.0
-Ni 1.450000
-d 1.000000
-illum 2
-map_Kd Textures\\_98.jpg
 
 newmtl _Color_001_7
 Ns 0.000000
@@ -1045,17 +988,6 @@ Ni 1.450000
 d 1.000000
 illum 2
 map_Kd Textures\\material_1_Terrain_1.jpg
-
-newmtl touka_poke_gym_mark_mat_003_001_001
-Ns 0.000000
-Ka 1.000000 1.000000 1.000000
-Kd 0.654902 0.666667 0.066667
-Ks 0.330000 0.330000 0.330000
-Ke 0.0 0.0 0.0
-Ni 1.450000
-d 1.000000
-illum 2
-map_Kd Textures\\touka_poke_gym_mark_mat_003_001_001.png
 
 newmtl ventana__22
 Ns 0.000000
