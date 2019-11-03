@@ -31,7 +31,7 @@ void cameraPosition(){
         zCursor+=0.5;
 
     if(/*cameraAtual==DOIS*/1){
-        if(keyboard['q'])
+        if(keyboard['q'] && yCursor>1)
             yCursor-=0.5;
         if(keyboard['e'])
             yCursor+=0.5;
@@ -46,14 +46,7 @@ void cameraPosition(){
     //esfera de raio 100
 
 
-    if(currentCamera==ONE) {
-        glMatrixMode(GL_MODELVIEW);
-        glLoadIdentity();
-        gluLookAt(xCursor+camera.x, camera.y, zCursor+camera.z,//câmera posicionada na casca da esfera calculada (terceira pessoa)
-                  xCursor+0, 0, zCursor+0,                          //centro da esfera, o ponto em que estamos olhando
-                  0, 1, 0);                                        //vetor UP, apontando para o eixo Y (para cima)
-    }
-    else if(currentCamera==TWO){
+    if(currentCamera==ONE){
         glMatrixMode(GL_MODELVIEW);
         glLoadIdentity();
 //        printf(" x,y,z %f %f %f\n", xCursor, yCursor, zCursor);
@@ -61,25 +54,57 @@ void cameraPosition(){
                    xCursor+camera.x, camera.y, zCursor+camera.z,     //e a câmera estará olhando para a casca da esfera (primeira pessoa)
                    0, 1, 0);                                        //vetor UP, apontando para o eixo Y (para cima)
 
+    }else if(currentCamera==TWO){
+
+        if(currentTopCamera==0) {
+            glMatrixMode(GL_MODELVIEW);
+            glLoadIdentity();
+            gluLookAt(0, 100, 100,   // Z=200
+                      0, 0, 0,    // (0, 0, 0) origem do mundo
+                      0, 1, 0);  //nesse exemplo mais simples, estamos no ponto Z=200 olhando para o ponto 0
+        }
+        else if(currentTopCamera==1){
+            glMatrixMode(GL_MODELVIEW);
+            glLoadIdentity();
+            gluLookAt(80, 100, 0,   // Z=200
+                      0, 0, 0,    // (0, 0, 0) origem do mundo
+                      0, 1, 0);  //nesse exemplo mais simples, estamos no ponto Z=200 olhando para o ponto 0
+        }
+        else if(currentTopCamera==2){
+            glMatrixMode(GL_MODELVIEW);
+            glLoadIdentity();
+            gluLookAt(0, 100, -60,   // Z=200
+                      0, 0, 0,    // (0, 0, 0) origem do mundo
+                      0, 1, 0);  //nesse exemplo mais simples, estamos no ponto Z=200 olhando para o ponto 0
+        }
+        else if(currentTopCamera==3){
+            glMatrixMode(GL_MODELVIEW);
+            glLoadIdentity();
+            gluLookAt(-80, 100, 0,   // Z=200
+                      0, 0, 0,    // (0, 0, 0) origem do mundo
+                      0, 1, 0);  //nesse exemplo mais simples, estamos no ponto Z=200 olhando para o ponto 0
+        }
+
     }else if(currentCamera==THREE){
-//        printf(" x,y,z %f %f %f\n", xCursor, yCursor, zCursor);
-        glMatrixMode(GL_MODELVIEW);
-        glLoadIdentity();
-        gluLookAt(0, 100, 100,   // Z=200
-                  0, 0, 0,    // (0, 0, 0) origem do mundo
-                  0, 1, 0);  //nesse exemplo mais simples, estamos no ponto Z=200 olhando para o ponto 0
+
+        if(currentRide==0){ //FerrisWheel
+            glMatrixMode(GL_MODELVIEW);
+            glLoadIdentity();
+            gluLookAt(-4.5, 12.5, 39,   // posicao da camera
+                      -1, 9, 13,    // posicao da FerrisWheel
+                      0, 1, 0);  // vetor UP
+        }
+
+        if(currentRide==1){ //Carousel
+            glMatrixMode(GL_MODELVIEW);
+            glLoadIdentity();
+            gluLookAt(-28.5, 2, 20.5,   // posicao da camera
+                      -28, 1, 8,    // posicao do Carousel
+                      0, 1, 0);  // vetor UP
+        }
 
 
-    }else if(currentCamera==ZERO){
-
-        if(keyboard['t'])
-            currentRide=TOWERFALL;
-        if(keyboard['f'])
-            currentRide=FERRISWHEEL;
-        if(keyboard['c'])
-            currentRide=CAROUSEL;
-
-        if(currentRide==TOWERFALL){
+        if(currentRide==2){ //TowerFall
             glMatrixMode(GL_MODELVIEW);
             glLoadIdentity();
             gluLookAt(-11.5, 7.5, -20,   // posicao da camera
@@ -87,19 +112,30 @@ void cameraPosition(){
                       0, 1, 0);  // vetor UP
         }
 
-        if(currentRide==FERRISWHEEL){
+        if(currentRide==3){ //TronShip
             glMatrixMode(GL_MODELVIEW);
             glLoadIdentity();
             gluLookAt(-4.5, 12.5, 39,   // posicao da camera
-                      -1, 9, 13,    // posicao do towerfall
+                      -1, 9, 13,    // posicao da FerrisWheel
                       0, 1, 0);  // vetor UP
         }
+
+        if(currentRide==4){ //GlobeOfDeath
+            glMatrixMode(GL_MODELVIEW);
+            glLoadIdentity();
+            gluLookAt(27, 16.5, -0.5,   // posicao da camera
+                      36, 8, 26,    // posicao do GlobeOfDeath
+                      0, 1, 0);  // vetor UP
+        }
+
+
+
     }
 
 }
 
 void drawScene(){
-//    printf(" x,y,z %f %f %f\n", xCursor, yCursor, zCursor);
+    printf(" x,y,z %f %f %f\n", xCursor, yCursor, zCursor);
     glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
     glColor3f(0,0,0);
     glClearColor(0,0,0,0);
@@ -112,9 +148,10 @@ void drawScene(){
     glTranslatef(-2, 0, 13);
     drawModel(ferriswheelBase, "../graphics/obj/ferriswheelbase.obj");
     glPushMatrix();
-    glTranslatef(1,8,0);
+    glTranslatef(1,8,1);
     glRotatef(degreeFW,0,0,1);
     drawModel(wheel, "../graphics/obj/wheel.obj");
+    glPopMatrix();
     glPopMatrix();
     glPushMatrix();
     glTranslatef(-7, 0, -49);
@@ -126,11 +163,27 @@ void drawScene(){
     glPopMatrix();
     glPushMatrix();
     glTranslatef(-28, 0, 8);
+//    glTranslatef(xCursor,yCursor,zCursor);
     drawModel(carouselStructure, "../graphics/obj/carousel.obj");
     glPushMatrix();
-    glTranslatef(0, yMoto, 0);
+    glTranslatef(0, yCMoto1, 0);
     glRotatef(degreeCarousel,0,1,0);
-    drawModel(carouselMotorcycle, "../graphics/obj/motorcycle.obj");
+    drawModel(carouselMoto1, "../graphics/obj/motorcycle1.obj");
+    glPopMatrix();
+    glPushMatrix();
+    glTranslatef(0, yCMoto2, 0);
+    glRotatef(degreeCarousel,0,1,0);
+    drawModel(carouselMoto2, "../graphics/obj/motorcycle2.obj");
+    glPopMatrix();
+    glPopMatrix();
+    glPushMatrix();
+    glTranslatef(36, 0, 26);
+//    glTranslatef(xCursor,yCursor,zCursor);
+    drawModel(globeOfDeath, "../graphics/obj/globeofdeath.obj");
+    glPushMatrix();
+    glTranslatef(1,8,1);
+    glRotatef(degreeGlobeOfDeath,1,0,1);
+    drawModel(globeOfDeathMoto, "../graphics/obj/globeofdeathMotorcycle.obj");
     glPopMatrix();
     glPopMatrix();
     glutSwapBuffers();

@@ -11,17 +11,10 @@
 
 void timer(int time){
 //    printf("phi, teta  %f %f\n", phi,teta);
-    carouselTimer++;
-    if(carouselTimer<300)
-        yMoto += 0.01;
-    else if(carouselTimer<600)
-        yMoto -= 0.01;
-    else
-        carouselTimer=0;
-
     degreeFW += 0.1;
-    degreeCarousel -= 1;
+    degreeGlobeOfDeath += 5;
     towerFallMovement();
+    carouselMovement();
     updateLighting();
     glutPostRedisplay();
     glutTimerFunc(time, timer, 10);
@@ -42,6 +35,24 @@ void cameraMovement(int x, int y){
 
     xMouse = x; //guardam o x e y do mouse para usar na comparação do próximo frame
     yMouse = y;
+
+}
+
+void carouselMovement(){
+    degreeCarousel -= 1;
+
+    carouselTimer++;
+
+    if(carouselTimer<150) {
+        yCMoto1 += 0.01;
+        yCMoto2 -= 0.01;
+    }
+    else if(carouselTimer<300) {
+        yCMoto1 -= 0.01;
+        yCMoto2 += 0.01;
+    }
+    else
+        carouselTimer=0;
 
 }
 
@@ -88,7 +99,7 @@ void towerFallMovement(){
 
 void updateLighting(){
 
-    lighttimer++;
+//    lighttimer++;
 //    printf("R G B %f %f %f \n",red,green,blue);
 
 

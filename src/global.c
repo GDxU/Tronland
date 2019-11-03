@@ -7,14 +7,14 @@
 
 int keyboard[256];
 
-enum Camera{ZERO, ONE, TWO, THREE};
+enum Camera{ONE, TWO, THREE};
 enum Camera currentCamera;
 
 enum Screen{MENU, PLAYING};
 enum Screen currentScreen;
 
-enum Ride{FERRISWHEEL, CAROUSEL, TOWERFALL};
-enum Ride currentRide;
+int currentRide;
+int currentTopCamera;
 
 float ytowerfallcabins;
 int falling;
@@ -45,10 +45,15 @@ GLMmodel* wheel=NULL;
 GLMmodel* towerFall=NULL;
 GLMmodel* towerFallCabins=NULL;
 GLMmodel* carouselStructure=NULL;
-GLMmodel* carouselMotorcycle=NULL;
+GLMmodel* carouselMoto1=NULL;
+GLMmodel* carouselMoto2=NULL;
+GLMmodel* globeOfDeath=NULL;
+GLMmodel* globeOfDeathMoto=NULL;
 
 
 float degreeFW;
 float degreeCarousel;
-float yMoto;
+float degreeGlobeOfDeath;
+float yCMoto1;
+float yCMoto2;
 int carouselTimer;

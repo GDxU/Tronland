@@ -37,7 +37,11 @@ void initialize(){
     towerFall = glmReadOBJ("../graphics/obj/towerfLL.obj");
     towerFallCabins = glmReadOBJ("../graphics/obj/towerfallcabins.obj");
     carouselStructure = glmReadOBJ("../graphics/obj/carousel.obj");
-    carouselMotorcycle = glmReadOBJ("../graphics/obj/motorcycle.obj");
+    carouselMoto1 = glmReadOBJ("../graphics/obj/motorcycle1.obj");
+    carouselMoto2 = glmReadOBJ("../graphics/obj/motorcycle2.obj");
+    globeOfDeath = glmReadOBJ("../graphics/obj/globeofdeath.obj");
+    globeOfDeathMoto = glmReadOBJ("../graphics/obj/globeofdeathMotorcycle.obj");
+
 
     ytowerfallcabins=0;
     falling=0;
@@ -48,7 +52,7 @@ void initialize(){
 
 
     xCursor= 0;
-    yCursor= 0; //a câmera começa olhando para o ponto 0
+    yCursor= 2; //a câmera começa olhando para o ponto 0
     zCursor= 0;
 
     camera.x=0;
@@ -60,9 +64,12 @@ void initialize(){
 
     degreeFW=0;
     degreeCarousel=0;
-    yMoto=-0.5;
+    degreeGlobeOfDeath=0;
+    yCMoto1=-0.5;
+    yCMoto2=0.5;
     carouselTimer=0;
 
-    currentCamera=THREE;
+    currentCamera=TWO;
+    currentTopCamera=0;
     currentScreen=MENU;
 }
