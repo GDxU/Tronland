@@ -1,0 +1,967 @@
+# Blender MTL File: 'parque.blend'
+# Material Count: 89
+
+newmtl Azul
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.008928 1.000000 0.834312
+Ks 0.958716 0.958716 0.958716
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Central_Plaza
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.529412 0.603922 0.713725
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Central_Plaza.jpg
+
+newmtl Central_Plaza_by_seppi_Wall
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.623529 0.537255 0.462745
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Central_Plaza_by_seppi_Wall.jpg
+
+newmtl CharlotteConventionCenter_069
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.843137 0.843137 0.847059
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\CharlotteConventionCenter_069.jpg
+
+newmtl Color_002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.588235 0.596078 0.603922
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Cowboy_aStadium_0012
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.850980 0.858824 0.843137
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Cowboy_aStadium_0012.jpg
+
+newmtl Cowboy_aStadium_0013
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.317647 0.494118 0.603922
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Cowboy_aStadium_0013.jpg
+
+newmtl Cowboy_aStadium_0014
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.266667 0.278431 0.298039
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Cowboy_aStadium_0014.jpg
+
+newmtl Cowboy_aStadium_0015
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.737255 0.737255 0.752941
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Cowboy_aStadium_0015.jpg
+
+newmtl Cowboy_aStadium_0016
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.274510 0.301961 0.313725
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Cowboy_aStadium_0016.jpg
+
+newmtl Cowboy_aStadium_0018
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.439216 0.458824 0.501961
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Cowboy_aStadium_0018.jpg
+
+newmtl Cowboy_aStadium_0019
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.733333 0.749020 0.760784
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Cowboy_aStadium_0019.jpg
+
+newmtl Cowboy_aStadium_002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.207843 0.321569 0.427451
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Cowboy_aStadium_002.jpg
+
+newmtl Cowboy_aStadium_0020
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.525490 0.549020 0.584314
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Cowboy_aStadium_0020.jpg
+
+newmtl Cowboy_aStadium_0022_1_
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.470588 0.513725 0.564706
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Cowboy_aStadium_0022_1_.jpg
+
+newmtl Cowboy_aStadium_0023
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.454902 0.490196 0.545098
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Cowboy_aStadium_0023.jpg
+
+newmtl Cowboy_aStadium_0025
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.462745 0.509804 0.533333
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Cowboy_aStadium_0025.jpg
+
+newmtl Cowboy_aStadium_0026
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.321569 0.423529 0.486275
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Cowboy_aStadium_0026.jpg
+
+newmtl Cowboy_aStadium_0027
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.400000 0.454902 0.525490
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Cowboy_aStadium_0027.jpg
+
+newmtl Cowboy_aStadium_0028
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.498039 0.513725 0.549020
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Cowboy_aStadium_0028.jpg
+
+newmtl Cowboy_aStadium_0030
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.725490 0.733333 0.745098
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Cowboy_aStadium_0030.jpg
+
+newmtl Cowboy_aStadium_0031
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.494118 0.498039 0.490196
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Cowboy_aStadium_0031.jpg
+
+newmtl Cowboy_aStadium_0032
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.317647 0.341176 0.388235
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Cowboy_aStadium_0032.jpg
+
+newmtl Cowboy_aStadium_0037
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.650980 0.670588 0.701961
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Cowboy_aStadium_0037.jpg
+
+newmtl Cowboy_aStadium_0046
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.784314 0.784314 0.792157
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Cowboy_aStadium_0046.jpg
+
+newmtl Cowboy_aStadium_0048
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.239216 0.231373 0.215686
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Cowboy_aStadium_0048.jpg
+
+newmtl Cowboy_aStadium_0049
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.698039 0.737255 0.780392
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Cowboy_aStadium_0049.jpg
+
+newmtl Cowboy_aStadium_0052
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.749020 0.749020 0.749020
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Cowboy_aStadium_0052.jpg
+
+newmtl Electric_Arrow_Sign_1
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.411765 0.349020 0.137255
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Electric_Arrow_Sign_1.png
+
+newmtl FrontColor
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl GINASIO
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.053591 0.053591 0.053591
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl M_05_3
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.486275 0.564706 0.635294
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\M_05_3.jpg
+
+newmtl M_96_96_96
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.376471 0.376471 0.376471
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Material.000
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.084376 0.097587 0.116971
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Material.001
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.084376 0.097587 0.116971
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Material.002
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.012368 0.317294 0.042050
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Material145__c_pia__copy1
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.486275 0.564706 0.635294
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Material145__c_pia__copy1.jpg
+
+newmtl None
+Ns 500
+Ka 0.8 0.8 0.8
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+
+newmtl RCA_Dome_105
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.643137 0.647059 0.615686
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\RCA_Dome_105.jpg
+
+newmtl Stone_Pavers_Flagstone_Gray
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.666667 0.686275 0.698039
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Stone_Pavers_Flagstone_Gray.jpg
+
+newmtl Translucent_Glass_Block_Light
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.380392 0.494118 0.603922
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Translucent_Glass_Block_Light.jpg
+
+newmtl Translucent_Glass_Safety
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.411765 0.525490 0.619608
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\Translucent_Glass_Safety.jpg
+
+newmtl VA_Beach_Convention_Center_046
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.313725 0.407843 0.501961
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\VA_Beach_Convention_Center_046.jpg
+
+newmtl _10
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.639216 0.666667 0.698039
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_10.jpg
+
+newmtl _107
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.262745 0.309804 0.356863
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_107.jpg
+
+newmtl _108
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.411765 0.513725 0.639216
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_108.jpg
+
+newmtl _11
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.474510 0.600000 0.733333
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_11.jpg
+
+newmtl _110
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.235294 0.301961 0.360784
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_110.jpg
+
+newmtl _119
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.756863 0.729412 0.729412
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_119.jpg
+
+newmtl _12
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.627451 0.639216 0.627451
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_12.jpg
+
+newmtl _13
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.525490 0.603922 0.666667
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_13.jpg
+
+newmtl _15
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.313725 0.505882 0.588235
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_15.jpg
+
+newmtl _20
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.349020 0.458824 0.619608
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_20.jpg
+
+newmtl _28
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.490196 0.635294 0.729412
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_28.jpg
+
+newmtl _3
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.533333 0.784314 0.815686
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_3.png
+
+newmtl _32
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.313725 0.031373 0.564706
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl _33
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.270588 0.290196 0.317647
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_33.jpg
+
+newmtl _35
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.564712 0.590619 0.630757
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl _37
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.172549 0.203922 0.227451
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_37.jpg
+
+newmtl _5
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.988235 0.905882 0.509804
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_5.jpg
+
+newmtl _6
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.149020 0.192157 0.227451
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_6.jpg
+
+newmtl _63
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.372549 0.509804 0.639216
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_63.jpg
+
+newmtl _64
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.364706 0.529412 0.643137
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_64.jpg
+
+newmtl _66
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.380392 0.494118 0.603922
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_66.jpg
+
+newmtl _67
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.376471 0.490196 0.607843
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_67.jpg
+
+newmtl _68
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.513725 0.549020 0.603922
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_68.jpg
+
+newmtl _7
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.427451 0.560784 0.678431
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_7.jpg
+
+newmtl _70
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.388235 0.603922 0.729412
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_70.jpg
+
+newmtl _73
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.478431 0.576471 0.650980
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_73.jpg
+
+newmtl _78
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.427451 0.560784 0.678431
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_78.jpg
+
+newmtl _8
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.972549 0.002467
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl _82
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.411765 0.576471 0.639216
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_82.jpg
+
+newmtl _83
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.580392 0.658824 0.749020
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_83.jpg
+
+newmtl _86
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.329412 0.552941 0.611765
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_86.jpg
+
+newmtl _88
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.439216 0.564706 0.678431
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_88.jpg
+
+newmtl _94
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.435294 0.560784 0.682353
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_94.bmp
+
+newmtl _Color_001_7
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.431373 0.576471 0.721569
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_Color_001_7.bmp
+
+newmtl _Metal_Aluminum_Anodized_2
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.784314 0.819608 0.854902
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\_Metal_Aluminum_Anodized_2.jpg
+
+newmtl additional10_hudson_yards_kohn_pedersen_fox_kpf_coach_offic.000
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.352941 0.576471 0.721569
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\additional10_hudson_yards_kohn_pedersen_fox_kpf_coach_office_skyscraper_new_york_city_usa_dezeen_936_2_2.jpg
+
+newmtl additional10_hudson_yards_kohn_pedersen_fox_kpf_coach_office_sk
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.356863 0.572549 0.721569
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\additional10_hudson_yards_kohn_pedersen_fox_kpf_coach_office_skyscraper_new_york_city_usa_dezeen_936_2_3.jpg
+
+newmtl anaheim_0037
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.388235 0.486275 0.607843
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\anaheim_0037.jpg
+
+newmtl big_glass_squares_for_dome3
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.286275 0.337255 0.435294
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\big_glass_squares_for_dome3.jpg
+
+newmtl cowboy_bStadium_0001_01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.356863 0.427451 0.501961
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\cowboy_bStadium_0001_01.jpg
+
+newmtl cowboy_bStadium_0001_02
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.427451 0.458824 0.513725
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\cowboy_bStadium_0001_02.jpg
+
+newmtl drop_result_5
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.317647 0.439216 0.568627
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\drop_result_5.jpg
+
+newmtl fontainebleau_20rendering_20807tower_4
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.447059 0.552941 0.674510
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\fontainebleau_20rendering_20807tower_4.jpg
+
+newmtl material_1_Terrain_1
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.407843 0.439216 0.376471
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\material_1_Terrain_1.jpg
+
+newmtl ventana__22
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.341176 0.478431 0.552941
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\ventana__22.bmp
+
+newmtl windows2
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.415686 0.529412 0.639216
+Ks 0.330000 0.330000 0.330000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Textures\\windows2.jpg

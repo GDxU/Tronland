@@ -1,5 +1,5 @@
 # Blender MTL File: 'parque.blend'
-# Material Count: 93
+# Material Count: 89
 
 newmtl Azul
 Ns 225.000000
@@ -306,17 +306,6 @@ Ni 1.450000
 d 1.000000
 illum 2
 map_Kd Textures\\Cowboy_aStadium_0052.jpg
-
-newmtl Cowboy_aStadium_0054
-Ns 0.000000
-Ka 1.000000 1.000000 1.000000
-Kd 0.556863 0.592157 0.627451
-Ks 0.330000 0.330000 0.330000
-Ke 0.0 0.0 0.0
-Ni 1.450000
-d 1.000000
-illum 2
-map_Kd Textures\\Cowboy_aStadium_0054.jpg
 
 newmtl Electric_Arrow_Sign_1
 Ns 0.000000
@@ -921,39 +910,6 @@ Ni 1.450000
 d 1.000000
 illum 2
 map_Kd Textures\\cowboy_bStadium_0001_02.jpg
-
-newmtl cowboy_bStadium_0001_02_1_
-Ns 0.000000
-Ka 1.000000 1.000000 1.000000
-Kd 0.427451 0.458824 0.513725
-Ks 0.330000 0.330000 0.330000
-Ke 0.0 0.0 0.0
-Ni 1.450000
-d 1.000000
-illum 2
-map_Kd Textures\\cowboy_bStadium_0001_02_1_.jpg
-
-newmtl cowboy_bStadium_0001_03
-Ns 0.000000
-Ka 1.000000 1.000000 1.000000
-Kd 0.388235 0.450980 0.525490
-Ks 0.330000 0.330000 0.330000
-Ke 0.0 0.0 0.0
-Ni 1.450000
-d 1.000000
-illum 2
-map_Kd Textures\\cowboy_bStadium_0001_03.jpg
-
-newmtl cowboy_bStadium_0001_04
-Ns 0.000000
-Ka 1.000000 1.000000 1.000000
-Kd 0.364706 0.435294 0.513725
-Ks 0.330000 0.330000 0.330000
-Ke 0.0 0.0 0.0
-Ni 1.450000
-d 1.000000
-illum 2
-map_Kd Textures\\cowboy_bStadium_0001_04.jpg
 
 newmtl drop_result_5
 Ns 0.000000
