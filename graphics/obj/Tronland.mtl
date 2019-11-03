@@ -1,5 +1,5 @@
 # Blender MTL File: 'parque.blend'
-# Material Count: 89
+# Material Count: 83
 
 newmtl Azul
 Ns 225.000000
@@ -152,17 +152,6 @@ Ni 1.450000
 d 1.000000
 illum 2
 map_Kd Textures\\Cowboy_aStadium_0020.jpg
-
-newmtl Cowboy_aStadium_0022_1_
-Ns 0.000000
-Ka 1.000000 1.000000 1.000000
-Kd 0.470588 0.513725 0.564706
-Ks 0.330000 0.330000 0.330000
-Ke 0.0 0.0 0.0
-Ni 1.450000
-d 1.000000
-illum 2
-map_Kd Textures\\Cowboy_aStadium_0022_1_.jpg
 
 newmtl Cowboy_aStadium_0023
 Ns 0.000000
@@ -408,17 +397,6 @@ Ks 0.8 0.8 0.8
 d 1
 illum 2
 
-newmtl RCA_Dome_105
-Ns 0.000000
-Ka 1.000000 1.000000 1.000000
-Kd 0.643137 0.647059 0.615686
-Ks 0.330000 0.330000 0.330000
-Ke 0.0 0.0 0.0
-Ni 1.450000
-d 1.000000
-illum 2
-map_Kd Textures\\RCA_Dome_105.jpg
-
 newmtl Stone_Pavers_Flagstone_Gray
 Ns 0.000000
 Ka 1.000000 1.000000 1.000000
@@ -539,17 +517,6 @@ Ni 1.450000
 d 1.000000
 illum 2
 map_Kd Textures\\_12.jpg
-
-newmtl _13
-Ns 0.000000
-Ka 1.000000 1.000000 1.000000
-Kd 0.525490 0.603922 0.666667
-Ks 0.330000 0.330000 0.330000
-Ke 0.0 0.0 0.0
-Ni 1.450000
-d 1.000000
-illum 2
-map_Kd Textures\\_13.jpg
 
 newmtl _15
 Ns 0.000000
@@ -714,17 +681,6 @@ d 1.000000
 illum 2
 map_Kd Textures\\_68.jpg
 
-newmtl _7
-Ns 0.000000
-Ka 1.000000 1.000000 1.000000
-Kd 0.427451 0.560784 0.678431
-Ks 0.330000 0.330000 0.330000
-Ke 0.0 0.0 0.0
-Ni 1.450000
-d 1.000000
-illum 2
-map_Kd Textures\\_7.jpg
-
 newmtl _70
 Ns 0.000000
 Ka 1.000000 1.000000 1.000000
@@ -877,28 +833,6 @@ Ni 1.450000
 d 1.000000
 illum 2
 map_Kd Textures\\anaheim_0037.jpg
-
-newmtl big_glass_squares_for_dome3
-Ns 0.000000
-Ka 1.000000 1.000000 1.000000
-Kd 0.286275 0.337255 0.435294
-Ks 0.330000 0.330000 0.330000
-Ke 0.0 0.0 0.0
-Ni 1.450000
-d 1.000000
-illum 2
-map_Kd Textures\\big_glass_squares_for_dome3.jpg
-
-newmtl cowboy_bStadium_0001_01
-Ns 0.000000
-Ka 1.000000 1.000000 1.000000
-Kd 0.356863 0.427451 0.501961
-Ks 0.330000 0.330000 0.330000
-Ke 0.0 0.0 0.0
-Ni 1.450000
-d 1.000000
-illum 2
-map_Kd Textures\\cowboy_bStadium_0001_01.jpg
 
 newmtl cowboy_bStadium_0001_02
 Ns 0.000000
