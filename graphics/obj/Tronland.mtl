@@ -1,5 +1,5 @@
 # Blender MTL File: 'parque.blend'
-# Material Count: 119
+# Material Count: 118
 
 newmtl Azul
 Ns 225.000000
@@ -602,16 +602,6 @@ newmtl Material.001
 Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.084376 0.097587 0.116971
-Ks 0.500000 0.500000 0.500000
-Ke 0.0 0.0 0.0
-Ni 1.450000
-d 1.000000
-illum 2
-
-newmtl Material.002
-Ns 225.000000
-Ka 1.000000 1.000000 1.000000
-Kd 0.012368 0.317294 0.042050
 Ks 0.500000 0.500000 0.500000
 Ke 0.0 0.0 0.0
 Ni 1.450000
