@@ -13,8 +13,12 @@ enum Camera currentCamera;
 enum Screen{MENU, PLAYING};
 enum Screen currentScreen;
 
+enum Button{START, EXIT};
+enum Button currentButton;
+
 int currentRide;
 int currentTopCamera;
+int lightingswitch;
 
 float ytowerfallcabins;
 int falling;
@@ -38,7 +42,7 @@ typedef struct{
 }vetor3d;
 vetor3d camera;
 
-char orthoperspective=1; //1 se perspective 0 se ortho
+char orthoperspective=1; //1 if perspective 0 if ortho
 GLMmodel* tronland=NULL;
 GLMmodel* ferriswheelBase=NULL;
 GLMmodel* wheel=NULL;
@@ -50,6 +54,11 @@ GLMmodel* carouselMoto2=NULL;
 GLMmodel* globeOfDeath=NULL;
 GLMmodel* globeOfDeathMoto=NULL;
 
+GLuint idMenu;
+GLuint idStart;
+GLuint idSelectedStart;
+GLuint idExit;
+GLuint idSelectedExit;
 
 float degreeFW;
 float degreeCarousel;

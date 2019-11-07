@@ -1,7 +1,8 @@
 #include <SOIL/SOIL.h>
 
 #include "global.h"
-
+#include <GL/glew.h>
+#include <GL/freeglut.h>
 
 
 GLuint loadTexture(const char* file) {

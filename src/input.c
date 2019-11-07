@@ -26,7 +26,7 @@ void pressedKey(unsigned char key, int x, int y) {
             if (currentCamera == THREE){
                 currentRide--;
                 if(currentRide == -1)
-                    currentRide = 4;
+                    currentRide = 3;
             }
             break;
         case 'd':
@@ -37,8 +37,28 @@ void pressedKey(unsigned char key, int x, int y) {
 //            }
             if (currentCamera == THREE){
                 currentRide++;
-                if(currentRide == 5)
+                if(currentRide == 4)
                     currentRide = 0;
+            }
+            break;
+        case 'w':
+            if(currentScreen==MENU)
+                currentButton=START;
+            break;
+        case 's':
+            if(currentScreen==MENU)
+                currentButton=EXIT;
+            break;
+        case 13:
+            if(currentScreen==MENU){
+                if(currentButton==START) {
+                    currentScreen = PLAYING;
+                    glEnable(GL_LIGHTING);
+                    glEnable(GL_DEPTH_TEST);
+                    orthoperspective = 1;
+                }
+                else
+                    exit(0);
             }
             break;
     }

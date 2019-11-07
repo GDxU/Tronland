@@ -11,11 +11,14 @@
 
 void timer(int time){
 //    printf("phi, teta  %f %f\n", phi,teta);
-    degreeFW += 0.1;
-    degreeGlobeOfDeath += 5;
-    towerFallMovement();
-    carouselMovement();
-    updateLighting();
+    if(currentScreen==PLAYING){
+        updateLighting();
+        degreeFW += 0.1;
+        degreeGlobeOfDeath += 5;
+        towerFallMovement();
+        carouselMovement();
+    }
+    
     glutPostRedisplay();
     glutTimerFunc(time, timer, 10);
 }
@@ -70,15 +73,15 @@ void towerFallMovement(){
     }
 
     if(goingup)
-        ytowerfallcabins+=0.01;
+        ytowerfallcabins+=0.03;
 
-    if(ytowerfallcabins>=7) {
+    if(ytowerfallcabins>=14) {
         goingup = 0;
         waitingup = 1;
     }
 
     if(waitingup){
-        if(towerfalltimer<500)
+        if(towerfalltimer<250)
             towerfalltimer++;
         else{
             waitingup=0;
@@ -88,9 +91,9 @@ void towerFallMovement(){
     }
 
     if(falling)
-        ytowerfallcabins-=0.1;
+        ytowerfallcabins-=0.2;
 
-    if(ytowerfallcabins<=0) {
+    if(ytowerfallcabins<=0.5) {
         falling = 0;
         waitingdown = 1;
     }
@@ -99,7 +102,16 @@ void towerFallMovement(){
 
 void updateLighting(){
 
-//    lighttimer++;
+   if(keyboard['l'] && lightingswitch%2!=0){
+        glDisable(GL_LIGHTING);
+        lightingswitch++;
+   }     
+   if(keyboard['l'] && lightingswitch%2==0){
+        glEnable(GL_LIGHTING);
+        lightingswitch++;
+   }     
+
+   lighttimer++;
 //    printf("R G B %f %f %f \n",red,green,blue);
 
 

@@ -5,27 +5,38 @@
 #include "global.h"
 #include "vector.h"
 #include "glm.h"
+#include "load.h"
 
 void reshape(int w, int h) {
     glViewport (0, 0, w, h);
-    glMatrixMode (GL_PROJECTION);
+    setupProjection();
+}
+
+void setupProjection() {
+    float aspectRatio = (float) glutGet(GLUT_WINDOW_WIDTH) / (float) glutGet(GLUT_WINDOW_HEIGHT);
+
+    glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
-    if(orthoperspective==1)
-        gluPerspective(45, ((float)w)/h, 1, 1000);
-    else
-        glOrtho(-100, 100, -100, 100, 0, 0);
+
+    if(orthoperspective==1){
+        gluPerspective(45, aspectRatio, 1, 1000);
+    }else{
+        glOrtho(-100, 100, -100, 100, 0, 1);
+    }
+
     glMatrixMode(GL_MODELVIEW);
-    glLoadIdentity();
+    glLoadIdentity() ;
 }
 
 void initialize(){
+    
+    glEnable(GL_BLEND );
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
-    orthoperspective=1;
 
-    glClearColor(0, 0, 0, 1);
-    glEnable(GL_DEPTH_TEST);
-    glEnable(GL_LIGHTING);
+    lightingswitch = 0;
 
+    orthoperspective=0;
 
     red = green = blue = 1;
     lighttimer=0;
@@ -41,6 +52,13 @@ void initialize(){
     carouselMoto2 = glmReadOBJ("../graphics/obj/motorcycle2.obj");
     globeOfDeath = glmReadOBJ("../graphics/obj/globeofdeath.obj");
     globeOfDeathMoto = glmReadOBJ("../graphics/obj/globeofdeathMotorcycle.obj");
+
+    idMenu = loadTexture("../graphics/StartScreen/startscreen.png");
+    idStart = loadTexture("../graphics/StartScreen/iniciarButton.png");
+    idSelectedStart = loadTexture("../graphics/StartScreen/iniciarButtonP.png");
+    idExit = loadTexture("../graphics/StartScreen/sairButton.png");
+    idSelectedExit = loadTexture("../graphics/StartScreen/sairButtonP.png");
+
 
 
     ytowerfallcabins=0;
@@ -72,4 +90,5 @@ void initialize(){
     currentCamera=TWO;
     currentTopCamera=0;
     currentScreen=MENU;
+    currentButton=START;
 }

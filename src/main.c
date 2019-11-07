@@ -15,7 +15,7 @@ int main(int argc, char* argv[]) {
 
     glutInit(&argc, argv);
 
-    glutInitContextVersion(2, 1);
+    glutInitContextVersion(1, 1);
     glutInitContextProfile(GLUT_COMPATIBILITY_PROFILE);
 
     glutInitDisplayMode(GLUT_RGBA | GLUT_DOUBLE | GLUT_DEPTH);

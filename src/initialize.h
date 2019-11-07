@@ -5,4 +5,6 @@ void initialize();
 
 void reshape(int w, int h);
 
+void setupProjection();
+
 #endif

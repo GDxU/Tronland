@@ -3,7 +3,7 @@
 #include <math.h>
 #include "glm.h"
 #include "global.h"
-
+#include "initialize.h"
 
 void drawModel(GLMmodel* model, char* string){
     if(model==NULL){
@@ -16,6 +16,36 @@ void drawModel(GLMmodel* model, char* string){
         glmVertexNormals(model, 90.0, 1);
     }
     glmDraw(model, GLM_SMOOTH | GLM_TEXTURE | GLM_COLOR);
+}
+
+void draw2D(float x, float y, float l, float a, GLuint idTextura){ // x, y, largura, altura
+
+    glEnable(GL_TEXTURE_2D);
+    glBindTexture(GL_TEXTURE_2D, idTextura);
+    glBegin(GL_TRIANGLE_FAN);
+    glTexCoord2f( 0, 0);
+    glVertex2f( x-l, y-a);
+    glTexCoord2f( 1, 0);
+    glVertex2f( x+l, y-a);
+    glTexCoord2f( 1, 1);
+    glVertex2f( x+l, y+a);
+    glTexCoord2f( 0, 1);
+    glVertex2f( x-l, y+a);
+    glEnd();
+    glDisable(GL_TEXTURE_2D);
+
+}
+
+void drawButtons(){
+
+
+    if(currentButton == START){
+        draw2D( 0, -20, 32.5, 15, idSelectedStart);
+        draw2D( 0, -65, 22, 15, idExit);    
+    }else{
+        draw2D( 0, -20, 32.5, 15, idStart);    
+        draw2D( 0, -65, 22, 15, idSelectedExit);
+    }
 }
 
 
@@ -107,20 +137,13 @@ void cameraPosition(){
         if(currentRide==2){ //TowerFall
             glMatrixMode(GL_MODELVIEW);
             glLoadIdentity();
-            gluLookAt(-11.5, 7.5, -20,   // posicao da camera
-                      -9, 4.5, -36,    // posicao do towerfall
+            gluLookAt(-19, 13, -8.5,   // posicao da camera
+                      -7, 8, -38,    // posicao do towerfall
                       0, 1, 0);  // vetor UP
         }
 
-        if(currentRide==3){ //TronShip
-            glMatrixMode(GL_MODELVIEW);
-            glLoadIdentity();
-            gluLookAt(-4.5, 12.5, 39,   // posicao da camera
-                      -1, 9, 13,    // posicao da FerrisWheel
-                      0, 1, 0);  // vetor UP
-        }
 
-        if(currentRide==4){ //GlobeOfDeath
+        if(currentRide==3){ //GlobeOfDeath
             glMatrixMode(GL_MODELVIEW);
             glLoadIdentity();
             gluLookAt(27, 16.5, -0.5,   // posicao da camera
@@ -134,7 +157,7 @@ void cameraPosition(){
 
 }
 
-void drawScene(){
+void drawTronLand(){
     printf(" x,y,z %f %f %f\n", xCursor, yCursor, zCursor);
     glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
     glColor3f(0,0,0);
@@ -154,7 +177,8 @@ void drawScene(){
     glPopMatrix();
     glPopMatrix();
     glPushMatrix();
-    glTranslatef(-7, 0, -49);
+    glTranslatef(-7, 0, -38);
+//    glTranslatef(xCursor,yCursor,zCursor);
     drawModel(towerFall, "../graphics/obj/towerfLL.obj");
     glPushMatrix();
     glTranslatef(0, ytowerfallcabins, 0);
@@ -181,10 +205,30 @@ void drawScene(){
 //    glTranslatef(xCursor,yCursor,zCursor);
     drawModel(globeOfDeath, "../graphics/obj/globeofdeath.obj");
     glPushMatrix();
-    glTranslatef(1,8,1);
+    glTranslatef(1,10,1);
     glRotatef(degreeGlobeOfDeath,1,0,1);
     drawModel(globeOfDeathMoto, "../graphics/obj/globeofdeathMotorcycle.obj");
     glPopMatrix();
     glPopMatrix();
     glutSwapBuffers();
+
+
+
+}
+
+void drawScene(){
+    setupProjection();
+    if(currentScreen==MENU){
+        glDisable(GL_LIGHTING);
+        glMatrixMode(GL_MODELVIEW);
+        glLoadIdentity();
+        glColor4f(1,1,1,1);
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+       glClearColor(0, 0, 0, 1);
+//        glColor4f(1,1,1,1);
+        draw2D(0, 0, 100, 100, idMenu);
+        drawButtons();
+        glutSwapBuffers();
+    }else
+        drawTronLand();
 }

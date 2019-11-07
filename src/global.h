@@ -1,7 +1,10 @@
 #ifndef GLOBAL_H_INCLUDED
 #define GLOBAL_H_INCLUDED
 
+#include <GL/glew.h>
+#include <GL/freeglut.h>
 #include "glm.h"
+
 
 int keyboard[256];
 
@@ -11,8 +14,13 @@ enum Camera currentCamera;
 enum Screen{MENU, PLAYING};
 enum Screen currentScreen;
 
+enum Button{START, EXIT};
+enum Button currentButton;
+
 int currentRide;
 int currentTopCamera;
+int lightingswitch;
+
 
 float ytowerfallcabins;
 int falling;
@@ -51,6 +59,11 @@ GLMmodel* carouselMoto2;
 GLMmodel* globeOfDeath;
 GLMmodel* globeOfDeathMoto;
 
+GLuint idMenu;
+GLuint idStart;
+GLuint idSelectedStart;
+GLuint idExit;
+GLuint idSelectedExit;
 
 float degreeFW;
 float degreeCarousel;
