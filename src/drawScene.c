@@ -187,7 +187,7 @@ void drawTronLand(){
     glPopMatrix();
     glPushMatrix();
     glTranslatef(-28, 0, 8);
-//    glTranslatef(xCursor,yCursor,zCursor);
+    // glTranslatef(xCursor,yCursor,zCursor);
     drawModel(carouselStructure, "../graphics/obj/carousel.obj");
     glPushMatrix();
     glTranslatef(0, yCMoto1, 0);
@@ -229,6 +229,8 @@ void drawScene(){
         draw2D(0, 0, 100, 100, idMenu);
         drawButtons();
         glutSwapBuffers();
-    }else
+    }else if(currentScreen==PLAYING)
         drawTronLand();
+    else if(currentScreen==PAUSE)
+        draw2D(0, 0, 100, 100, idPause);            
 }

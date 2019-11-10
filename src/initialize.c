@@ -34,7 +34,8 @@ void initialize(){
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
 
-    lightingswitch = 0;
+    lightingswitch = 1;
+    pauseSwitch = 0;
 
     orthoperspective=0;
 
@@ -58,7 +59,7 @@ void initialize(){
     idSelectedStart = loadTexture("../graphics/StartScreen/iniciarButtonP.png");
     idExit = loadTexture("../graphics/StartScreen/sairButton.png");
     idSelectedExit = loadTexture("../graphics/StartScreen/sairButtonP.png");
-
+    idPause = loadTexture("../graphics/StartScreen/sairButtonP.png");
 
 
     ytowerfallcabins=0;

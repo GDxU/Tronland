@@ -11,7 +11,7 @@ int keyboard[256];
 enum Camera{ONE, TWO, THREE};
 enum Camera currentCamera;
 
-enum Screen{MENU, PLAYING};
+enum Screen{MENU, PLAYING, PAUSE, EXITING};
 enum Screen currentScreen;
 
 enum Button{START, EXIT};
@@ -20,6 +20,8 @@ enum Button currentButton;
 int currentRide;
 int currentTopCamera;
 int lightingswitch;
+
+int pauseSwitch;
 
 
 float ytowerfallcabins;
@@ -64,6 +66,8 @@ GLuint idStart;
 GLuint idSelectedStart;
 GLuint idExit;
 GLuint idSelectedExit;
+GLuint idPause;
+
 
 float degreeFW;
 float degreeCarousel;

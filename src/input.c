@@ -7,39 +7,48 @@ void pressedKey(unsigned char key, int x, int y) {
             exit(0);
             break;
         case '1':
-            currentCamera = ONE;
-            yCursor = 2;
+            if(currentScreen==PLAYING){
+                currentCamera = ONE;
+                yCursor = 2;
+            }
             break;
         case '2':
-            currentCamera = TWO;
+            if(currentScreen==PLAYING)
+                currentCamera = TWO;
             break;
         case '3':
-            currentCamera = THREE;
-            currentRide = 0;
+            if(currentScreen==PLAYING){
+                currentCamera = THREE;
+                currentRide = 0;
+            }
             break;
         case 'a':
-//            if (currentCamera == TWO) {
-//                currentTopCamera--;
-//                if (currentTopCamera == -1)
-//                    currentTopCamera = 3;
-//            }
-            if (currentCamera == THREE){
-                currentRide--;
-                if(currentRide == -1)
-                    currentRide = 3;
-            }
+            if(currentScreen==PLAYING){
+    //            if (currentCamera == TWO) {
+    //                currentTopCamera--;
+    //                if (currentTopCamera == -1)
+    //                    currentTopCamera = 3;
+    //            }
+                if (currentCamera == THREE){
+                    currentRide--;
+                    if(currentRide == -1)
+                        currentRide = 3;
+                }
+            }    
             break;
         case 'd':
-//            if (currentCamera == TWO) {
-//                    currentTopCamera++;
-//                if (currentTopCamera == 4)
-//                    currentTopCamera = 0;
-//            }
-            if (currentCamera == THREE){
-                currentRide++;
-                if(currentRide == 4)
-                    currentRide = 0;
-            }
+            if(currentScreen==PLAYING){            
+    //            if (currentCamera == TWO) {
+    //                    currentTopCamera++;
+    //                if (currentTopCamera == 4)
+    //                    currentTopCamera = 0;
+    //            }
+                if (currentCamera == THREE){
+                    currentRide++;
+                    if(currentRide == 4)
+                        currentRide = 0;
+                }
+            }    
             break;
         case 'w':
             if(currentScreen==MENU)
@@ -48,6 +57,30 @@ void pressedKey(unsigned char key, int x, int y) {
         case 's':
             if(currentScreen==MENU)
                 currentButton=EXIT;
+            break;
+        case 'l':
+            if(currentScreen==PLAYING){
+                if(lightingswitch==1){
+                    glDisable(GL_LIGHTING);
+                    lightingswitch=0;
+                }    
+                else{
+                    glEnable(GL_LIGHTING);
+                    lightingswitch=1;
+                }
+            }
+            break;
+        case 'p':
+            if(currentScreen==PLAYING){
+                orthoperspective=0;
+                glDisable(GL_LIGHTING);
+                currentScreen=PAUSE;
+            }
+            else if(currentScreen==PAUSE){
+                orthoperspective=1;
+                glEnable(GL_LIGHTING);
+                currentScreen=PLAYING;
+            }
             break;
         case 13:
             if(currentScreen==MENU){
