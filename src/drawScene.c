@@ -158,7 +158,7 @@ void cameraPosition(){
 }
 
 void drawTronLand(){
-    printf(" x,y,z %f %f %f\n", xCursor, yCursor, zCursor);
+    // printf(" x,y,z %f %f %f\n", xCursor, yCursor, zCursor);
     glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
     glColor3f(0,0,0);
     glClearColor(0,0,0,0);

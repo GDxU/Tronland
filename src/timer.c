@@ -15,6 +15,7 @@ void timer(int time){
         updateLighting();
         degreeFW += 0.3;
         degreeGlobeOfDeath+=7.5;
+        towerFallMovement();
         carouselMovement();
     }
     glutPostRedisplay();

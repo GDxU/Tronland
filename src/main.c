@@ -20,7 +20,7 @@ int main(int argc, char* argv[]) {
 
     glutInitDisplayMode(GLUT_RGBA | GLUT_DOUBLE | GLUT_DEPTH);
     glutInitWindowSize(1920, 1080);
-    glutCreateWindow("...");
+    glutCreateWindow("Tronland");
 
     glutReshapeFunc(reshape);
     glutDisplayFunc(drawScene);
