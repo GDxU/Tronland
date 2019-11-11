@@ -1,4 +1,5 @@
 #include "global.h"
+#include "music.h"
 
 void pressedKey(unsigned char key, int x, int y) {
     keyboard[key]=1;
@@ -24,11 +25,11 @@ void pressedKey(unsigned char key, int x, int y) {
             break;
         case 'a':
             if(currentScreen==PLAYING){
-    //            if (currentCamera == TWO) {
-    //                currentTopCamera--;
-    //                if (currentTopCamera == -1)
-    //                    currentTopCamera = 3;
-    //            }
+/*               if (currentCamera == TWO) {
+                   currentTopCamera--;
+                   if (currentTopCamera == -1)
+                       currentTopCamera = 3;
+               }*/
                 if (currentCamera == THREE){
                     currentRide--;
                     if(currentRide == -1)
@@ -38,11 +39,11 @@ void pressedKey(unsigned char key, int x, int y) {
             break;
         case 'd':
             if(currentScreen==PLAYING){            
-    //            if (currentCamera == TWO) {
-    //                    currentTopCamera++;
-    //                if (currentTopCamera == 4)
-    //                    currentTopCamera = 0;
-    //            }
+/*               if (currentCamera == TWO) {
+                       currentTopCamera++;
+                   if (currentTopCamera == 4)
+                       currentTopCamera = 0;
+               }*/
                 if (currentCamera == THREE){
                     currentRide++;
                     if(currentRide == 4)
@@ -51,12 +52,20 @@ void pressedKey(unsigned char key, int x, int y) {
             }    
             break;
         case 'w':
-            if(currentScreen==MENU)
-                currentButton=START;
+            if(currentScreen==MENU){
+                if(currentButton==EXIT){
+                    play_music(choise,3,0);
+                    currentButton=START;
+                }
+            }    
             break;
         case 's':
-            if(currentScreen==MENU)
-                currentButton=EXIT;
+            if(currentScreen==MENU){
+                if(currentButton==START){
+                    currentButton=EXIT;
+                    play_music(choise,3,0);
+                }
+            }    
             break;
         case 'l':
             if(currentScreen==PLAYING){
@@ -89,6 +98,8 @@ void pressedKey(unsigned char key, int x, int y) {
                     glEnable(GL_LIGHTING);
                     glEnable(GL_DEPTH_TEST);
                     orthoperspective = 1;
+                    stop_music(1);
+                    play_music(playingMusic,2,-1);
                 }
                 else
                     exit(0);

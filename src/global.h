@@ -4,7 +4,7 @@
 #include <GL/glew.h>
 #include <GL/freeglut.h>
 #include "glm.h"
-
+#include "music.h"
 
 int keyboard[256];
 
@@ -30,6 +30,13 @@ int goingup;
 int waitingup;
 int waitingdown;
 int towerfalltimer;
+
+float degreeFW;
+float degreeCarousel;
+float degreeGlobeOfDeath;
+float yCMoto1;
+float yCMoto2;
+int carouselTimer;
 
 
 float red, green, blue;
@@ -68,12 +75,8 @@ GLuint idExit;
 GLuint idSelectedExit;
 GLuint idPause;
 
-
-float degreeFW;
-float degreeCarousel;
-float degreeGlobeOfDeath;
-float yCMoto1;
-float yCMoto2;
-int carouselTimer;
+Mix_Chunk * menuMusic;
+Mix_Chunk * playingMusic;
+Mix_Chunk * choise;
 
 #endif

@@ -1,7 +1,7 @@
 # Blender MTL File: 'None'
 # Material Count: 3
 
-newmtl Black
+newmtl Black.003
 Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.024808 0.024808 0.024808
@@ -11,7 +11,7 @@ Ni 1.450000
 d 1.000000
 illum 2
 
-newmtl Blue
+newmtl Blue.002
 Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.012980 1.000000 0.988422
@@ -21,7 +21,7 @@ Ni 1.450000
 d 1.000000
 illum 2
 
-newmtl Default_OBJ
+newmtl Default_OBJ.003
 Ns 225.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.800000 0.800000 0.800000

@@ -7,18 +7,16 @@
 
 #include "global.h"
 #include "vector.h"
-
+#include "music.h"
 
 void timer(int time){
 //    printf("phi, teta  %f %f\n", phi,teta);
     if(currentScreen==PLAYING){
         updateLighting();
-        degreeFW += 0.1;
-        degreeGlobeOfDeath += 5;
-        towerFallMovement();
+        degreeFW += 0.3;
+        degreeGlobeOfDeath+=7.5;
         carouselMovement();
     }
-    
     glutPostRedisplay();
     glutTimerFunc(time, timer, 10);
 }
@@ -93,7 +91,7 @@ void towerFallMovement(){
     if(falling)
         ytowerfallcabins-=0.2;
 
-    if(ytowerfallcabins<=0.5) {
+    if(ytowerfallcabins<=0.6) {
         falling = 0;
         waitingdown = 1;
     }

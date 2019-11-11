@@ -6,6 +6,7 @@
 #include "vector.h"
 #include "glm.h"
 #include "load.h"
+#include "music.h"
 
 void reshape(int w, int h) {
     glViewport (0, 0, w, h);
@@ -61,6 +62,9 @@ void initialize(){
     idSelectedExit = loadTexture("../graphics/StartScreen/sairButtonP.png");
     idPause = loadTexture("../graphics/StartScreen/sairButtonP.png");
 
+    menuMusic = load_music("../music/Menumusic.ogg");
+    playingMusic = load_music("../music/Gamemusic.ogg");
+    choise = load_music("../music/select.ogg");
 
     ytowerfallcabins=0;
     falling=0;
@@ -68,7 +72,7 @@ void initialize(){
     waitingup=0;      //tower fall variables
     waitingdown=1;
     towerfalltimer=0;
-
+    globeOfDeathTimer=1;
 
     xCursor= 0;
     yCursor= 2; //a câmera começa olhando para o ponto 0
@@ -92,4 +96,8 @@ void initialize(){
     currentTopCamera=0;
     currentScreen=MENU;
     currentButton=START;
+
+    play_music(menuMusic,1,-1);
+
+
 }
