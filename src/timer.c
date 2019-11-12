@@ -9,6 +9,11 @@
 #include "vector.h"
 #include "music.h"
 
+void updateLighting();
+void setupFog();
+void towerFallMovement();
+void carouselMovement();
+
 void timer(int time){
     if(currentScreen==PLAYING){
         updateLighting();
@@ -41,7 +46,7 @@ void cameraMovement(int x, int y){
 }
 
 void carouselMovement(){
-    degreeCarousel -= 1;
+    degreeCarousel -= 2;
 
     carouselTimer++;
 
@@ -117,7 +122,6 @@ void updateLighting(){
     }
 
     if(lighttimer>1300 && lighttimer<=1500 && blue<=0.4){
-        printf("%d\n",lighttimer);
         red -= 0.003;
         blue += 0.0005;  //noite ideal
         green -= 0.001;

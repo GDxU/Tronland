@@ -8,6 +8,8 @@
 #include "load.h"
 #include "music.h"
 
+void setupProjection();
+
 void reshape(int w, int h) {
     glViewport (0, 0, w, h);
     setupProjection();
@@ -101,5 +103,21 @@ void initialize(){
 
     play_music(menuMusic,1,-1);
 
+    printf("\n\nWELCOME TO TRONLAND!!!\n\n");
+    
+    printf("Comands in menu:\n");
+    printf("[w] [s] -> switch between buttons\n");
+    printf("[enter] -> select\n");
+    printf("[esc] -> exit the game\n\n");
+
+    printf("Comands in game:\n");
+    printf("[1] [2] [3] -> switch between cameras\n");
+    printf("[w] [a] [s] [d] -> walk in world and change camera position\n");
+    printf("[q] [e] ->  control height of camera 1\n");
+    printf("[mouse] -> control view of camera 1\n");
+    printf("[l] -> turn on/off lightining\n");
+    printf("[n] -> turn on/off fog\n");
+    printf("[p] -> pause rides movement\n");
+    printf("[esc] -> exit the game\n\n");
 
 }
