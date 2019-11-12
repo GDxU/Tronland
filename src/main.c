@@ -9,7 +9,6 @@
 #include "timer.h"
 #include "vector.h"
 
-//Testing commiting on Clion
 
 int main(int argc, char* argv[]) {
 

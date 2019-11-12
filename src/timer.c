@@ -10,7 +10,6 @@
 #include "music.h"
 
 void timer(int time){
-//    printf("phi, teta  %f %f\n", phi,teta);
     if(currentScreen==PLAYING){
         updateLighting();
         setupFog();
@@ -91,7 +90,7 @@ void towerFallMovement(){
     }
 
     if(falling)
-        ytowerfallcabins-=0.2;
+        ytowerfallcabins-=0.4;
 
     if(ytowerfallcabins<=0.6) {
         falling = 0;
@@ -104,10 +103,6 @@ void updateLighting(){
 
     lighttimer++;
 
-//    printf("R G B %f %f %f \n",red,green,blue);
-
-
-//    red = green = blue = 0;
 
     if(lighttimer<=1000){
         red=1;

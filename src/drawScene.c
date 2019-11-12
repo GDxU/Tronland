@@ -158,7 +158,6 @@ void cameraPosition(){
 }
 
 void drawTronLand(){
-    // printf(" x,y,z %f %f %f\n", xCursor, yCursor, zCursor);
     glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
     glColor3f(0,0,0);
     glClearColor(0,0,0,0);
@@ -168,7 +167,7 @@ void drawTronLand(){
     drawModel(tronland, "../graphics/obj/Tronland.obj");
     glPopMatrix();
     glPushMatrix();
-    glTranslatef(-2, 0, 13);
+    glTranslatef(-2.5, 0, 12.5);
     drawModel(ferriswheelBase, "../graphics/obj/ferriswheelbase.obj");
     glPushMatrix();
     glTranslatef(1,8,1);
@@ -178,7 +177,6 @@ void drawTronLand(){
     glPopMatrix();
     glPushMatrix();
     glTranslatef(-8, 0.1, -37.5);
-//   glTranslatef(xCursor,yCursor,zCursor);
     drawModel(towerFall, "../graphics/obj/towerfLL.obj");
     glPushMatrix();
     glTranslatef(0, ytowerfallcabins, 0);
@@ -187,7 +185,6 @@ void drawTronLand(){
     glPopMatrix();
     glPushMatrix();
     glTranslatef(-28, 0, 8);
-    // glTranslatef(xCursor,yCursor,zCursor);
     drawModel(carouselStructure, "../graphics/obj/carousel.obj");
     glPushMatrix();
     glTranslatef(0, yCMoto1, 0);
@@ -201,22 +198,16 @@ void drawTronLand(){
     glPopMatrix();
     glPopMatrix();
     glPushMatrix();
-    glTranslatef(36, 10, 26);
+    glTranslatef(36.45, 10, 25);
     drawModel(globeOfDeath, "../graphics/obj/globeofdeath.obj");
-    // glPopMatrix();
     glPushMatrix();
-    // glTranslatef(36,13,26);
     glTranslatef(0,0.5,0);
     glScalef(0.9,0.9,0.9);
-    // glTranslatef(xCursor,yCursor,zCursor);
     glRotatef(degreeGlobeOfDeath,1,0,0);
     drawModel(globeOfDeathMoto, "../graphics/obj/globeofdeathMotorcycle.obj");
     glPopMatrix();
     glPopMatrix();
     glutSwapBuffers();
-
-
-
 }
 
 void drawScene(){
@@ -227,8 +218,7 @@ void drawScene(){
         glLoadIdentity();
         glColor4f(1,1,1,1);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-       glClearColor(0, 0, 0, 1);
-//        glColor4f(1,1,1,1);
+        glClearColor(0, 0, 0, 1);
         draw2D(0, 0, 100, 100, idMenu);
         drawButtons();
         glutSwapBuffers();

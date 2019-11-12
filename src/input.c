@@ -25,11 +25,11 @@ void pressedKey(unsigned char key, int x, int y) {
             break;
         case 'a':
             if(currentScreen==PLAYING){
-/*               if (currentCamera == TWO) {
+               if (currentCamera == TWO) {
                    currentTopCamera--;
                    if (currentTopCamera == -1)
                        currentTopCamera = 3;
-               }*/
+               }
                 if (currentCamera == THREE){
                     currentRide--;
                     if(currentRide == -1)
@@ -39,11 +39,11 @@ void pressedKey(unsigned char key, int x, int y) {
             break;
         case 'd':
             if(currentScreen==PLAYING){            
-/*               if (currentCamera == TWO) {
+               if (currentCamera == TWO) {
                        currentTopCamera++;
                    if (currentTopCamera == 4)
                        currentTopCamera = 0;
-               }*/
+               }
                 if (currentCamera == THREE){
                     currentRide++;
                     if(currentRide == 4)
