@@ -1,7 +1,7 @@
 # Tronland
 ![Logo](game_logof.png)
 
-### Instructions
+## Instructions
 
 To develop the project, the following libraries have been used: FreeGlut, Glew, SOIL, SDL and SDL-mixer, to make sure it will work, we have to install:<br /><br />
 
@@ -20,13 +20,13 @@ or<br />
 
 To compile and run the program, just go into the MakeFile paste and then execute the command "make run" in the terminal".
 
-### Comands
-Menu:<br />
+## Comands
+### Menu
 [w] [s] -> switch between buttons<br />
 [enter] -> select<br />
 [esc] -> exit the game<br /><br />
 
-Game:<br />
+### Game
 [1] [2] [3] -> switch between cameras<br />
 [w] [a] [s] [d] -> walk in world and change camera position<br />
 [q] [e] ->  control height of camera 1<br />
