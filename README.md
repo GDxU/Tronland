@@ -18,13 +18,13 @@ or<br />
 
 <em>sudo apt install freeglut3-dev libglew-dev libsoil-dev libsdl1.2-dev libsdl-image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev</em><br />
 
-To compile and run the program, just go into the MakeFile paste and then execute the command "make run" in the terminal".
+To compile and run the program, just go into the MakeFile paste and then execute the command "make run" in the terminal.
 
 ## Comands
 ### Menu
 [w] [s] -> switch between buttons<br />
 [enter] -> select<br />
-[esc] -> exit the game<br /><br />
+[esc] -> exit the game<br />
 
 ### Game
 [1] [2] [3] -> switch between cameras<br />
