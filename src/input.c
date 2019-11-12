@@ -79,6 +79,18 @@ void pressedKey(unsigned char key, int x, int y) {
                 }
             }
             break;
+        case 'n':
+            if(currentScreen==PLAYING){
+                if(fogswitch==1){
+                    glDisable(GL_FOG);
+                    fogswitch=0;
+                }    
+                else{
+                    glEnable(GL_FOG);
+                    fogswitch=1;
+                }
+            }
+            break;
         case 'p':
             if(currentScreen==PLAYING){
                 orthoperspective=0;

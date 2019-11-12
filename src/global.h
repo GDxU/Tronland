@@ -20,6 +20,7 @@ enum Button currentButton;
 int currentRide;
 int currentTopCamera;
 int lightingswitch;
+int fogswitch;
 
 int pauseSwitch;
 

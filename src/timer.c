@@ -13,6 +13,7 @@ void timer(int time){
 //    printf("phi, teta  %f %f\n", phi,teta);
     if(currentScreen==PLAYING){
         updateLighting();
+        setupFog();
         degreeFW += 0.3;
         degreeGlobeOfDeath+=7.5;
         towerFallMovement();
@@ -233,3 +234,20 @@ void updateLighting(){
 
 }
 
+void setupFog(){
+
+    if(currentCamera == TWO){
+        glFogi(GL_FOG_MODE, GL_EXP2);    //GL_EXP, GL_EXP2 e GL_LINEAR
+        //glFogf(GL_FOG_START, -3);    //onde começa e termina o fog para GL_LINEAR(-3.00 ate 3.00)
+        //glFogf(GL_FOG_END, 110);
+        glFogf(GL_FOG_DENSITY, 0.003);   //densidade do fog, 0.00 á 3.00
+    }
+    if(currentCamera == THREE){
+        glFogi(GL_FOG_MODE, GL_EXP2);    //GL_EXP, GL_EXP2 e GL_LINEAR
+        //glFogf(GL_FOG_START, 100);    //onde começa e termina o fog para GL_LINEAR(-3.00 ate 3.00)
+        //glFogf(GL_FOG_END, 110);  
+        glFogf(GL_FOG_DENSITY, 0.007);   //densidade do fog, 0.00 á 3.00
+    }    
+    float colorFog[4] = {0.2, 1, 1, 1};  //azul neon
+    glFogfv(GL_FOG_COLOR, colorFog);
+}

@@ -177,7 +177,7 @@ void drawTronLand(){
     glPopMatrix();
     glPopMatrix();
     glPushMatrix();
-    glTranslatef(-7, 0.1, -38);
+    glTranslatef(-8, 0.1, -37.5);
 //   glTranslatef(xCursor,yCursor,zCursor);
     drawModel(towerFall, "../graphics/obj/towerfLL.obj");
     glPushMatrix();
