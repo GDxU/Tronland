@@ -72,7 +72,6 @@ void initialize(){
     waitingup=0;      //tower fall variables
     waitingdown=1;
     towerfalltimer=0;
-    globeOfDeathTimer=1;
 
     xCursor= 0;
     yCursor= 2; //a câmera começa olhando para o ponto 0
